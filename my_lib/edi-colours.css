@@ -21,7 +21,6 @@ h1, h2, h3 {
   color: rgb(0,145,181);
   text-decoration: none;
 }
-
 .edi-orange h1, .edi-orange h2, .edi-orange h3 {
   color: #005072;
   line-height: 0.8em;
@@ -33,12 +32,12 @@ h1, h2, h3 {
   color: #c2d3df;
 }
 
-.edi-softblue a, .duke-softblue a > code {
+.edi-softblue a, .edi-softblue a > code {
   /* color: rgb(153,50, 153); */
   color: rgb(0,50,95);
   text-decoration: none;
 }
-.edi-softblue h1, .duke-softblue h2, .duke-softblue h3 {
+.edi-softblue h1, .edi-softblue h2, .edi-softblue h3 {
   color: #00325f;
   line-height: 0.8em;
   text-shadow: 0 0 10px #00c4df;
@@ -48,7 +47,7 @@ h1, h2, h3 {
   background-color: #9c9a00;
   /* color: #FFD960; */
 }
-.edi-green h1, .duke-green h2, .duke-green h3 {
+.edi-green h1, .edi-green h2, .edi-green h3 {
   color: #00325f;
   line-height: 0.8em;
   text-shadow: 0 0 10px #457e81;
@@ -83,3 +82,7 @@ h1, h2, h3 {
   left: 20px;
   content:url("logo.svg");
 }
+
+/* code highlights */
+
+.remark-code-line-highlighted { background-color: #00c4df; }

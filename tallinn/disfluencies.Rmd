@@ -1,0 +1,22 @@
+# Disfluencies
+
+> [...] phenomena that interrupt the flow of speech and do not add prepositional content to an utterance .right[Fox Tree (1995)]
+
+--
+.pull-left[.middle-left[
+- long pauses
+- repeated words or phrases
+- restarted sentences
+- the fillers *uh* and *um*
+]]
+
+.pull-right[.middle-right[
+.center[![:scale 50%](img/disfluency.svg)
+]]]
+
+
+???
+- talk about the "dys"/"dis" distinction
+---
+# What do disfluencies do?
+

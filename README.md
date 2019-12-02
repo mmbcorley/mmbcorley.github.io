@@ -11,4 +11,7 @@
 
 - The [patchwork](https://github.com/thomasp85/patchwork) project
   makes it 'ridiculously easy to combine ggplot plots
+- The [countdown](https://github.com/gadenbuie/countdown) package
+  makes on-screen countdown timers, for class activities etc.[^1]
 
+[^1]: something exciting

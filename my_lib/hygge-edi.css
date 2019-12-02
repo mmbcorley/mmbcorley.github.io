@@ -13,11 +13,6 @@
  *
  **************/
 
-
-/* Colors are defined by the          */
-/* Duke Branding Color Palette        */ 
-/* https://styleguide.duke.edu/color-palette/   */
-
 .Large { font-size: 144% }
 .large { font-size: 120% }
 .small { font-size: 90% }
@@ -48,7 +43,7 @@
 
 .content-box { 
     box-sizing: content-box;
-    	background-color: #e2e2e2;
+    background-color: #e2e2e2;
   /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
      Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
      Content box width: 160px
@@ -98,26 +93,26 @@
 
 .content-box-green {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(156, 154, 0);
-  background-color: rgba(156,154,0,.85);
+    background-color: rgb(156, 154, 0);
+    background-color: rgba(156,154,0,.85);
 }
 
 .content-box-purple {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(129, 2, 98);
-  background-color: rgba(129, 2, 98, .85)
+    background-color: rgb(129, 2, 98);
+    background-color: rgba(129, 2, 98, .85);
 }
 
 .content-box-red {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(193, 0, 67);
-  background-color: rgba(193, 0, 67,.85)
+    background-color: rgb(193, 0, 67);
+    background-color: rgba(193, 0, 67,.85);
 }
 
 .content-box-yellow {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(244, 170, 0);
-  background-color: rgba(244, 170, 0, .85)
+    background-color: rgb(244, 170, 0);
+    background-color: rgba(244, 170, 0, .85);
 }
 
 
@@ -173,12 +168,23 @@
     transform: rotate(-2deg); 
 }
 
+.rotate-far-left {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg); 
+}
+
 .rotate-right {
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     transform: rotate(2deg);     
 }
 
+.rotate-far-right {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);     
+}
 
 
 /********** 
@@ -244,4 +250,17 @@
     left: 10px;
     width: 200px;
     height: 25px;
+}
+
+/* try for vertical centering */
+.middle-left {
+  position:          relative;
+  top:               50%;
+  transform:         translateY(50%);
+}
+
+.middle-right {
+  position:          relative;
+  top:               50%;
+  transform:         translateY(10%);
 }
