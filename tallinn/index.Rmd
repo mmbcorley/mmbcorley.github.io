@@ -6,13 +6,18 @@ institute: "University of Edinburgh"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-    css: [default, "../my-css/edi-colours.css", "../my-css/hygge-edi.css", "../my-css/edi-fonts.css"]
+    css:
+      - default
+      - "../my_css/edi-colours.css"
+      - "../my_css_hygge-edi.css"
+      - "../my_css/edi-fonts.css"
+      - "../my_css/animate.css"
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: "16:10"
+      ratio: "16:9"
 
 ---
 
@@ -27,6 +32,10 @@ options(htmltools.dir.version = FALSE)
 Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
 
 ---
+layout: true
+class: animated, slideInRight
+
+---
 class: center, middle
 
 # xaringan
@@ -34,7 +43,7 @@ class: center, middle
 ### /ʃaː.'riŋ.ɡan/
 
 ---
-class: inverse, center, middle
+class: edi-orange, center, middle
 
 # Get Started
 

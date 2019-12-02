@@ -6,7 +6,7 @@ institute: "RStudio, Inc."
 date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    css: [default, "../my-css/edi-colours.css", "../my-css/hygge-edi.css", "../my-css/edi-fonts.css"]
+    css: [default, "../my_css/edi-colours.css", "../my_css/hygge-edi.css", "../my_css/edi-fonts.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
