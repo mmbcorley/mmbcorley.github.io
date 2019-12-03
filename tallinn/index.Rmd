@@ -83,8 +83,18 @@ class: edi-softblue, center, middle, animated, bounceInDown
 ]]]
 
 ---
-# What do disfluencies do?
+# Typical Disfluent Speech
 
-- something interesting
+.pull-left[
+- about 6 per 100 words
+  - excludes 'prosodic' pauses
+
+- major question for the field:
+  do disfluencies 'communicate'?
+]
+
+.pull-right[
+.center[.grayscale[![](img/um_wordcloud.png)
+]]]
 
 ---
