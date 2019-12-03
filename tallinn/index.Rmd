@@ -14,7 +14,7 @@ output:
       - "my_lib/animate.css"
     lib_dir: libs
     nature:
-      beforeInit: "../my_lib/macros.js"
+      beforeInit: "my_lib/macros.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -36,7 +36,6 @@ output:
 .content-box-green[.center[
 keep things informal]
 ]
-
 
 ---
 class: edi-softblue, center, middle
@@ -66,35 +65,84 @@ class: edi-softblue, center, middle, animated, bounceInDown
 # Disfluencies
 
 > [...] phenomena that interrupt the flow of speech and do not add prepositional content to an utterance .right[Fox Tree (1995)]
-
 ???
-- talk about the "dys"/"dis" distinction
+- talk about "dis" vs "dys"
 --
 
-.pull-left[.middle-left[
-- long pauses
-- repeated words or phrases
-- restarted sentences
-- the fillers *uh* and *um*
-]]
-
-.pull-right[.middle-right[
-.center[![:scale 50%](img/disfluency.svg)
-]]]
-
----
-# Typical Disfluent Speech
-
 .pull-left[
-- about 6 per 100 words
-  - excludes 'prosodic' pauses
-
-- major question for the field:
-  do disfluencies 'communicate'?
+- pauses
+- (mid-word or -phrase) interruptions
+- repairs
+- repetitons
+- *the* pronounced "thee", *a* pronounced "ay"
+- .red[the fillers *uh* and *um*]
 ]
 
 .pull-right[
-.center[.grayscale[![](img/um_wordcloud.png)
-]]]
+.grayscale[![:scale 90%](img/um_wordcloud.png)
+]]
+---
+# What does disfluency sound like?
+
+- extended duration
+- creaky voice
+- mid-word cutoffs (60%)
+- coarticulation
+
+example           | frequency
+------------------|----------
+the - the dog     | 88.0%
+the(d) - the dog  | &nbsp;&nbsp;9.0%
+the(d) - the cat  | &nbsp;&nbsp;2.0%
+the(th) - the dog&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;0.3%
+.right[.small[(Shriberg, 2001)]]
 
 ---
+# How long does it last?
+
+
+.center[![:scale 70%](img/pause_durations.png)]
+
+
+.right[.small[(Shriberg, 2001)]]
+???
+- ATIS is a corpus of human-computer air traffice speech
+- note that long disfluencies are used in empirical studies
+---
+# Why does disfluency matter?
+<br>
+- up to 6 in 100 words of spontaneous speech .right[.small[(Fox Tree, 1995; Bortfeld et al., 2001)]]
+
+- unnoticed by listeners? .right[.small[(Lickley & Bard, 1996)]]
+
+- but produced in predictable circumstances...
+---
+
+
+---
+# The Network Task
+.pull-left[
+![](img/network_trial.gif)
+]
+
+.pull-right[
+- used to investigate speech planning .right[.small[(Levelt, 1983)]]
+- used to investigate speech rate and disfluency .right[.small[(Oomen & Postma, 2001)]]
+- ### (Schnadt & Corley)
+]
+
+
+---
+class: edi-softblue, center, middle, animated, bounceInDown
+
+# Research on Prediction
+
+.Large[[Prezi Presentation](https://prezi.com/3eesnhdw_jmd/?token=63946009903bfb80143c31d5230f630071b110321374701468fc8a2b57922724&utm_campaign=share&utm_medium=copy)]
+
+---
+class: edi-softblue, center, middle, animated, bounceInDown
+<!-- here we have the deception research -->
+
+# Research on Deception
+
+.Large[[Slides Presentation](https://docs.google.com/presentation/d/1oBFoHvNyuvcEIx18j4hVO0jiWTeFjUSReFheegujsIg/edit?usp=sharing)]
