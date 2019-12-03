@@ -8,10 +8,10 @@ output:
   xaringan::moon_reader:
     css:
       - default
-      - "../my_lib/hygge-edi.css"
-      - "../my_lib/edi-colours.css"
-      - "../my_lib/edi-fonts.css"
-      - "../my_lib/animate.css"
+      - "my_lib/hygge-edi.css"
+      - "my_lib/edi-colours.css"
+      - "my_lib/edi-fonts.css"
+      - "my_lib/animate.css"
     lib_dir: libs
     nature:
       beforeInit: "../my_lib/macros.js"
