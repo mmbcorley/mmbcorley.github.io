@@ -123,11 +123,11 @@ the(th) - the dog&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;0.3%
 - generally, F0 'resets' post-disfluency
 - makes it possible to 'splice out' disfluencies in spontaneous speech
 ]
-.content-box-red[add audio]
 <!-- use mp3 audio, see code below -->
-<br>
-<audio src="img/good_times.mp3" controls></audio>
-
+<br/>
+<audio src="img/d1.mp3" controls></audio>
+<br/>
+<audio src="img/d2.mp3" controls></audio>
 ---
 # Why does disfluency matter?
 <br>
@@ -301,15 +301,27 @@ template: cft2
 
 - they can still function as *signals*
   - in the same way that smoke signals fire
+  - as a product of, e.g., cognitive effort
 
 - are listeners sensitive to these signals?
-
 ]
---
 
-
-<br/><br/>
-.content-box-blue[**prediction** (next); **deception/pragmatics** (later)]
+---
+# Arnold et al. (2004)
+.center[![:scale 40%](img/arnold_stims.png)]
+> "Put the grapes above the candle.  Now put the camel..."<br>
+> "Put the grapes above the candle. Now put *thee uh* camel...
+???
+- it's cognitively taxing to produce *new* information
+---
+# Arnold et al. (2004)
+.center[![:scale 70%](img/arnold.png)]
+---
+count: false
+# Arnold et al. (2004)
+.center[![:scale 70%](img/arnold2.png)]
+???
+- these are the cases where participants are expecting the opposite of what they hear
 ---
 class: edi-softblue, center, middle, animated, bounceInDown
 
