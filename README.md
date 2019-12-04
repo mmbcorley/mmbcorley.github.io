@@ -12,6 +12,8 @@
 - The [patchwork](https://github.com/thomasp85/patchwork) project
   makes it 'ridiculously easy to combine ggplot plots
 - The [countdown](https://github.com/gadenbuie/countdown) package
-  makes on-screen countdown timers, for class activities etc.[^1]
-
-[^1]: something exciting
+  makes on-screen countdown timers, for class activities etc.
+- Some advice on [including
+  audio](https://catswhocode.com/html-audio-tag/) in HTML5, including
+  pointers to scripts with fancy controls
+  

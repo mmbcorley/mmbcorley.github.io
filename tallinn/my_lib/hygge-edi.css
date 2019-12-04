@@ -99,12 +99,14 @@
 
 .content-box-purple {
   /* set opacity in last decimal value of rgba */
+    color: rgb(194,211,223);
     background-color: rgb(129, 2, 98);
     background-color: rgba(129, 2, 98, .85);
 }
 
 .content-box-red {
   /* set opacity in last decimal value of rgba */
+    color: rgb(194,211,223);
     background-color: rgb(193, 0, 67);
     background-color: rgba(193, 0, 67,.85);
 }
