@@ -349,24 +349,50 @@ class: edi-softblue, center, middle, animated, bounceInDown
 .pull-right[
 - very topical at the moment!
 
-- many different ways of "lying"
-
 - producing an utterance with intent to deceive
+
+- many different ways of "lying"
 ]
---
+<br/>
+
+- total falsehoods, exaggerations, withholding information, etc.
+.right[.small[(see Dynel, 2011, for classification)]]
+
+---
+# True lies
+<br>
+- falsehoods are obviously not the only form of deception though
+
+  - plenty of work to be done!
+
+> you go out for a drink, and roll home several hours (and drinks) later than intended.
+
+> "you're drunk!"
+
+> "well, I had a beer..."
+.right[.small[(Hannah Rohde, p.c.)]]
+
+???
+- also bullshitting, near-truths, etc. etc.
+- invitation to think about a PhD in Edinburgh
+---
+# Deception research
+<br>
 
 - most often operationalized in the literature as making a statement the speaker knows to be false
 
 > "My name is Dan Mirman"
 
 > "I voted Conservative"
+
+- but differences between studies may explain inconsistencies in results
+
 ???
 - not that I'm suggesting for a moment that Dan would vote Conservative...
 
 ---
 # Some correct information on YouTube!
 <br>
-
 - average truth/lie discrimination accuracy is **54%**
   - meta-analysis of 206 studies .right[.small[(Bond & DePaulo, 2006)]]
 --
@@ -445,30 +471,64 @@ _assumptions_
 ]]
 
 ---
-
-# True lies
+# What do listeners respond to?
 <br>
-- falsehoods are obviously not the only form of deception though
 
-  - plenty of work to be done!
+- increase in voice pitch .right[.small[(e.g., Sporer & Schwandt, 2006 *for*; Vrij & Semin, 1996 *against*)]]
 
-> you go out for a drink, and roll home several hours (and drinks) later than intended.
+- different for different *lies* .right[.small[(e.g., Gupta et al., 2012)]]
 
-> "you're drunk!"
+- different for different *liars* .right[.small[(Hart et al., 2009)]]
 
-> "well, I had a beer..."
-.right[.small[(Hannah Rohde, p.c.)]]
-
-???
-- also bullshitting, near-truths, etc. etc.
-- invitation to think about a PhD in Edinburgh
 ---
+count: false
+# What do listeners respond to?
+<br>
 
+- increase in voice pitch .right[.small[(e.g., Sporer & Schwandt, 2006 *for*; Vrij & Semin, 1996 *against*)]]
 
-<!-- ### NEXT BREAK ### -->
+- different for different *lies* .right[.small[(e.g., Gupta et al., 2012)]]
+
+- .red[different for different *liars* .right[.small[(Hart et al., 2009)]]]
+---
+# Hart et al. (2009)
+<br/>
+
+- listeners who *implictly* detect lies are more accurate than those using *explicit* instructions
+
+- better to focus on *change* in manner rather than to identify a particular behaviour
+---
+# Listeners are consistent
+<br/>
+
+- meta-analyses suggest that **filled pauses** are used by listeners to infer deception .right[.small[(e.g., Sporer & Schwandt, 2006)]]
+
+- participants *believe* that **filled pauses** index lying
+.right[.small[(Akehurst et al., 1996)]]
+
+- also, increased fidgeting (e.g., hand, foot movements)
+.right[.small[(Hartwig & Bond, 2011)]]
+???
+- note that these findings are not universal!
+---
+# State of play
+<br/>
+
+.pull-left[.center[
+![](img/monkey-scratching-head.jpg)
+]]
+
+.pull-right[
+- listeners react to *some* kinds of cues to infer that speakers are lying
+- even if they are not accurate, the *process* is interesting
+- how does a cue, such as a filled pause, interact with an utterance to update its *pragmatic meaning*?
+
+]
+
 ---
 class: edi-softblue, center, middle, animated, bounceInDown
 <!-- here we have the deception research -->
+<!-- ### NEXT BREAK ### -->
 
 # Research on Deception
 
@@ -559,3 +619,48 @@ class: edi-orange, center, middle, animated, shake
   video not supported by this browser
 </video>
 ]
+
+---
+# Postscript
+
+- we've just spent two days talking about *um* and *uh*
+
+- and we've only scratched the surface:
+  - autism and disfluency .right[.small[(Lake et al., 2011)]]
+  - cross-linguistic differences .right[.small[(Bosker et al., 2014)]]
+  - psychometetric effects on disfluency .right[.small[(Engelhardt et al., 2019)]]
+
+- [other types of speech error](https://docs.google.com/presentation/d/1rFv9s5PsPKmilcqWWyqee5j1alfHnyt8U-zOB35ROTo/edit?usp=sharing)
+
+---
+# Thanks
+
+.pull-left[
+.small[
+Esperanza Badaya
+
+Phil Collard
+
+Ian Finlayson
+
+Josiah King
+
+Jia Loy
+
+Lucy MacGregor
+
+Michael Schnadt
+]]
+
+.pull-right[
+**Hannah Rohde**
+
+Hans Bosker
+
+David Donaldson
+
+Paul Engelhardt
+
+Rob Hartsuiker
+]
+
