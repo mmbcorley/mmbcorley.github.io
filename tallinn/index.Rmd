@@ -668,7 +668,6 @@ count: false
 
 ---
 # Thanks
-
 .pull-left[
 .small[
 Esperanza Badaya
@@ -699,4 +698,4 @@ Paul Engelhardt
 
 Rob Hartsuiker
 ]
-
+.center[.large[slides available at [mmbcorley.github.io/tallinn/](mmbcorley.github.io/tallinn/)]]
