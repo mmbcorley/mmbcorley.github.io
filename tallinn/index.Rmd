@@ -68,7 +68,7 @@ class: edi-softblue, center, middle, animated, bounceInDown
 ---
 # Disfluencies
 
-> [...] phenomena that interrupt the flow of speech and do not add prepositional content to an utterance .right[Fox Tree (1995)]
+> [...] phenomena that interrupt the flow of speech and do not add propositional content to an utterance .right[Fox Tree (1995)]
 ???
 - talk about "dis" vs "dys"
 --
