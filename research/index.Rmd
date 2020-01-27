@@ -1,0 +1,76 @@
+---
+title: "Research Summary"
+subtitle: "PSS Forum"
+author: "Martin Corley"
+institute: "University of Edinburgh"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css:
+      - default
+      - "my_lib/hygge-edi.css"
+      - "my_lib/edi-colours.css"
+      - "my_lib/edi-fonts.css"
+      - "my_lib/animate.css"
+    lib_dir: libs
+    nature:
+      beforeInit: "my_lib/macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+editor_options: 
+  chunk_output_type: console
+---
+class: edi-softblue
+
+# Research Interests
+<br/>
+## focus on how humans communicate, especially in spoken language
+--
+<br/>
+## 1. how is human speech understood? .right[.small[e.g., ultrasound studies]]
+## 2. "beyond words" .right[.small[e.g., _um_ and _uh_]]
+---
+# Ultrasound Studies
+.pull-left[.center[
+![:scale 70%](img/mc_u.png)
+]]
+.pull-right[
+- imaging of tongue surface
+<br/>
+
+- typical research question:
+<br/>
+> does predicting what you'll hear involve the language production system?
+.right[.small[(Drake & Corley, 2015)]]
+]
+---
+# Ultrasound Studies
+.center[
+<video width= "90%" controls>
+  <source src="img/prediction.mp4" type="video/mp4">
+  video not supported by this browser
+</video>
+]
+???
+maybe a slide to set the research question?
+---
+# Ultrasound Studies
+.center[
+<video width= "70%" controls>
+  <source src="img/pred2.mp4" type="video/mp4">
+  video not supported by this browser
+</video>
+]
+---
+# Ultrasound Studies
+.center[
+![:scale 90%](img/ultra.png)
+]
+<!-- .right[.small[(Drake & Corley, 2015)]] -->
+---
+class: animated, bounceInRight
+# Disfluency Studies
+
+- something interesting to say
