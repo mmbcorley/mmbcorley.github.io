@@ -26,13 +26,15 @@ class: edi-softblue
 
 # Research Interests
 <br/>
-## focus on how humans communicate, especially in spoken language
+## focus on how humans communicate
 --
 <br/>
-## 1. how is human speech understood? .right[.small[e.g., ultrasound studies]]
-## 2. "beyond words" .right[.small[e.g., _um_ and _uh_]]
+
+## 1. how is human speech understood? .right[.small[e.g., articulation studies]]
+## 2. understanding "beyond words" .right[.small[e.g., _um_ and _uh_]]
 ---
-# Ultrasound Studies
+class: animated, bounceInRight
+# Articulation Studies
 .pull-left[.center[
 ![:scale 70%](img/mc_u.png)
 ]]
@@ -43,10 +45,10 @@ class: edi-softblue
 - typical research question:
 <br/>
 > does predicting what you'll hear involve the language production system?
-.right[.small[(Drake & Corley, 2015)]]
+.right[.small[(e.g., Drake & Corley, 2015)]]
 ]
 ---
-# Ultrasound Studies
+# Articulation Studies
 .center[
 <video width= "90%" controls>
   <source src="img/prediction.mp4" type="video/mp4">
@@ -56,7 +58,7 @@ class: edi-softblue
 ???
 maybe a slide to set the research question?
 ---
-# Ultrasound Studies
+# Articulation Studies
 .center[
 <video width= "70%" controls>
   <source src="img/pred2.mp4" type="video/mp4">
@@ -64,7 +66,10 @@ maybe a slide to set the research question?
 </video>
 ]
 ---
-# Ultrasound Studies
+class: center, middle
+![](img/miracle.png)
+---
+# Articulation Studies
 .center[
 ![:scale 90%](img/ultra.png)
 ]
@@ -72,5 +77,44 @@ maybe a slide to set the research question?
 ---
 class: animated, bounceInRight
 # Disfluency Studies
+.pull-left[
+- eyetracking
+<br/>
 
-- something interesting to say
+- typical research question:
+<br/>
+> how, and how quickly, does disfluency affect the way we understand what is being said?
+.right[.small[(e.g., Loy, Rohde, & Corley, 2017)]]
+
+]
+.pull-right[
+.center[
+![:scale 70%](img/eyet.jpg)
+]]
+---
+# Disfluency Studies
+<br/>
+
+.center[
+![:scale 80%](img/donald.png)
+]
+---
+# Disfluency Studies
+.center[
+![:scale 55%](img/treasure.png)
+]
+.right[
+<audio src="img/treasure.mp3" controls></audio>
+]
+---
+# 
+# Disfluency Studies
+.center[
+![:scale 60%](img/image1.png)
+]
+---
+count: false
+# Disfluency Studies
+.center[
+![:scale 60%](img/image2.png)
+]
