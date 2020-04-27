@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Psychology</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Professor Martin Corley" />
+    <script src="libs/header-attrs-2.1/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="my_lib/hygge-edi.css" type="text/css" />
+    <link rel="stylesheet" href="my_lib/edi-colours.css" type="text/css" />
+    <link rel="stylesheet" href="my_lib/edi-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="my_lib/animate.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Psychology
+### Professor Martin Corley
+### April 2020
+
+---
+
+# Psychology
+## the science of human behaviour
+- what makes people fall in love?
+- what makes people become soccer hooligans?
+- how does advertising affect people?
+
+--
+
+## ...and also...
+- what abilities are people born with?
+- how do people use language?
+- how do people walk around without bumping into things?
+- how do people recognise faces?
+
+---
+count: false
+# Psychology
+## the science of human behaviour
+- what makes .red[people] fall in love?
+- what makes .red[people] become soccer hooligans?
+- how does advertising affect .red[people]?
+
+##...and also...
+- what abilities are .red[people] born with?
+- how do .red[people] use language?
+- how do .red[people] walk around without bumping into things?
+- how do .red[people] recognise faces?
+
+---
+# These are Complicated Questions
+
+.center[
+![:scale 80%](img/bw-theresa_may_forever2.jpg)
+]
+---
+count: false
+# These are Complicated Questions
+
+.center[
+![:scale 80%](img/bw-theresa_may_forever.jpg)
+]
+---
+# Even Basic Activities are Complex
+
+.center[
+![:scale 70%](img/et-example.gif)
+]
+---
+# ...When Measured Appropriately
+
+.center[
+![:scale 60%](img/tracker.jpg)
+]
+
+---
+class: edi-softblue, center, middle, animated, bounceInDown
+
+# The Degree at Edinburgh
+&lt;br/&gt;
+## Psychology BSc (Hons)
+## Joint Honours Degrees
+
+---
+# Basic Areas of Psychology
+
+- Biological Psychology
+- Cognitive Psychology
+- Developmental Psychology
+- Differential Psychology
+- Social Psychology
+
+- Specialist/Advanced Areas
+  - Clinical, Educational, Occupational
+  
+- .red[Research Methodology]
+
+---
+
+# Course Design
+
+&lt;br/&gt;
+
+  |  |  |  | &amp;nbsp;
+---|-------------------|---------|------------|----------
+Y1 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;| Basic Psychology  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Other Stuff] &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |  
+Y2 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Basic Psychology &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Other Stuff]  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |  
+Y3 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Mini-Dissertation &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Critical Analysis &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Electives
+Y4 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Dissertation &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |               | Tutorials &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Electives
+
+---
+count: false
+
+# Course Design
+
+&lt;br/&gt;
+
+  |  |  |  | &amp;nbsp;
+---|-------------------|---------|------------|----------
+Y1 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;| Basic Psychology  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Methods] &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Other Stuff &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |  
+Y2 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Basic Psychology &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Methods] &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Other Stuff  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |  
+Y3 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Mini-Dissertation &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Methods] &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Critical Analysis &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Electives
+Y4 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Dissertation &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |               | Tutorials &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Electives
+
+---
+# Methods in R
+
+
+```r
+d &lt;- data.frame(x=rnorm(100),y=rpois(100,lambda=3))
+mod.1 &lt;- lm(y~x,data=d)
+summary(mod.1)
+```
+
+```
+## 
+## Call:
+## lm(formula = y ~ x, data = d)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -3.0382 -1.1087 -0.1991  1.0795  4.9031 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)   3.1104     0.1736  17.914   &lt;2e-16 ***
+## x             0.1482     0.1693   0.875    0.384    
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 1.733 on 98 degrees of freedom
+## Multiple R-squared:  0.007756,	Adjusted R-squared:  -0.002369 
+## F-statistic: 0.766 on 1 and 98 DF,  p-value: 0.3836
+```
+
+
+---
+# Course Design
+
+&lt;br/&gt;
+
+  |  |  |  | &amp;nbsp;
+---|-------------------|---------|------------|----------
+Y1 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;| Basic Psychology  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Other Stuff &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | &lt;br/&gt;  
+Y2 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Basic Psychology &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Other Stuff  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |
+Y3 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Mini-Dissertation] &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Critical Analysis] &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Electives
+Y4 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Dissertation] &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |               | Tutorials &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Electives
+
+---
+count: false
+
+# Course Design
+
+&lt;br/&gt;
+
+  |  |  |  | &amp;nbsp;
+---|-------------------|---------|------------|----------
+Y1 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;| Basic Psychology  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Other Stuff &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |  
+Y2 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Basic Psychology &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Other Stuff  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |  
+Y3 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Mini-Dissertation &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Methods &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Critical Analysis &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Electives]
+Y4 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | Dissertation &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |               | Tutorials &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | .red[Electives]
+
+---
+# Joint Degrees
+&lt;br/&gt;
+- joint degrees offered with related subjects:
+
+  - artificial intelligence
+  - linguistics
+  - sociology
+  - philosophy
+  - economics
+  - business
+  
+- also *cognitive science*
+
+---
+# Extras
+
+.left-column[
+![:scale 95%](img/image54.png)
+
+]
+
+.right-column[
+.content-box-yellow[
+- personal tutor system
+- student support officers
+- PsychSoc]
+&lt;br/&gt;
+.content-box-purple[
+- **year 2**: volunteer research programme
+- **year 3**: junior year abroad]
+]
+
+---
+# Psychology
+&lt;br/&gt;&lt;br/&gt;
+
+- broad-based discipline
+
+- scientific (often experimental)
+
+- looks at how people behave *in general*, rarely at specific individuals
+
+---
+class: edi-softblue, center, middle
+
+# Thank You
+
+&lt;br/&gt;
+## More Information
+&lt;br/&gt;
+Psychology Website:
+[www.psy.ed.ac.uk](http://www.psy.ed.ac.uk)
+&lt;br/&gt;
+
+Undergraduate Admissions Office:
+[CAHSS.UGAdmissions@ed.ac.uk](mailto:CAHSS.UGAdmissions@ed.ac.uk)
+&lt;br/&gt;
+
+Student blog:
+[www.ppls.blog.ed.ac.uk](http://www.ppls.blog.ed.ac.uk/)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="my_lib/macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

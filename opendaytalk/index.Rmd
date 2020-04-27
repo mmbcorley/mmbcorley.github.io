@@ -1,0 +1,225 @@
+---
+title: "Psychology"
+#subtitle: "Psychology"
+author: "Professor Martin Corley"
+#institute: "University of Edinburgh"
+date: "April 2020"
+output:
+  xaringan::moon_reader:
+    css:
+      - default
+      - "my_lib/hygge-edi.css"
+      - "my_lib/edi-colours.css"
+      - "my_lib/edi-fonts.css"
+      - "my_lib/animate.css"
+    lib_dir: libs
+    nature:
+      beforeInit: "my_lib/macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+#   seal: false
+editor_options: 
+  chunk_output_type: console
+---
+# Psychology
+## the science of human behaviour
+- what makes people fall in love?
+- what makes people become soccer hooligans?
+- how does advertising affect people?
+
+--
+
+## ...and also...
+- what abilities are people born with?
+- how do people use language?
+- how do people walk around without bumping into things?
+- how do people recognise faces?
+
+---
+count: false
+# Psychology
+## the science of human behaviour
+- what makes .red[people] fall in love?
+- what makes .red[people] become soccer hooligans?
+- how does advertising affect .red[people]?
+
+##...and also...
+- what abilities are .red[people] born with?
+- how do .red[people] use language?
+- how do .red[people] walk around without bumping into things?
+- how do .red[people] recognise faces?
+
+---
+# These are Complicated Questions
+
+.center[
+![:scale 80%](img/bw-theresa_may_forever2.jpg)
+]
+---
+count: false
+# These are Complicated Questions
+
+.center[
+![:scale 80%](img/bw-theresa_may_forever.jpg)
+]
+---
+# Even Basic Activities are Complex
+
+.center[
+![:scale 70%](img/et-example.gif)
+]
+---
+# ...When Measured Appropriately
+
+.center[
+![:scale 60%](img/tracker.jpg)
+]
+
+---
+class: edi-softblue, center, middle, animated, bounceInDown
+
+# The Degree at Edinburgh
+<br/>
+## Psychology BSc (Hons)
+## Joint Honours Degrees
+
+---
+# Basic Areas of Psychology
+
+- Biological Psychology
+- Cognitive Psychology
+- Developmental Psychology
+- Differential Psychology
+- Social Psychology
+
+- Specialist/Advanced Areas
+  - Clinical, Educational, Occupational
+  
+- .red[Research Methodology]
+
+---
+
+# Course Design
+
+<br/>
+
+  |  |  |  | &nbsp;
+---|-------------------|---------|------------|----------
+Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .red[Other Stuff] &nbsp;&nbsp;&nbsp;&nbsp; |  
+Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .red[Other Stuff]  &nbsp;&nbsp;&nbsp;&nbsp; |  
+Y3 &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+
+---
+count: false
+
+# Course Design
+
+<br/>
+
+  |  |  |  | &nbsp;
+---|-------------------|---------|------------|----------
+Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; |  
+Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |  
+Y3 &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+
+---
+# Methods in R
+
+```{r demo}
+d <- data.frame(x=rnorm(100),y=rpois(100,lambda=3))
+mod.1 <- lm(y~x,data=d)
+summary(mod.1)
+```
+
+
+---
+# Course Design
+
+<br/>
+
+  |  |  |  | &nbsp;
+---|-------------------|---------|------------|----------
+Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; | <br/>  
+Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |
+Y3 &nbsp;&nbsp;&nbsp;&nbsp; | .red[Mini-Dissertation] &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .red[Critical Analysis] &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+Y4 &nbsp;&nbsp;&nbsp;&nbsp; | .red[Dissertation] &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+
+---
+count: false
+
+# Course Design
+
+<br/>
+
+  |  |  |  | &nbsp;
+---|-------------------|---------|------------|----------
+Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; |  
+Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |  
+Y3 &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | .red[Electives]
+Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | .red[Electives]
+
+---
+# Joint Degrees
+<br/>
+- joint degrees offered with related subjects:
+
+  - artificial intelligence
+  - linguistics
+  - sociology
+  - philosophy
+  - economics
+  - business
+  
+- also *cognitive science*
+
+---
+# Extras
+
+.left-column[
+![:scale 95%](img/image54.png)
+
+]
+
+.right-column[
+.content-box-yellow[
+- personal tutor system
+- student support officers
+- PsychSoc]
+<br/>
+.content-box-purple[
+- **year 2**: volunteer research programme
+- **year 3**: junior year abroad]
+]
+
+---
+# Psychology
+<br/><br/>
+
+- broad-based discipline
+
+- scientific (often experimental)
+
+- looks at how people behave *in general*, rarely at specific individuals
+
+---
+class: edi-softblue, center, middle
+
+# Thank You
+
+<br/>
+## More Information
+<br/>
+Psychology Website:
+[www.psy.ed.ac.uk](http://www.psy.ed.ac.uk)
+<br/>
+
+Undergraduate Admissions Office:
+[CAHSS.UGAdmissions@ed.ac.uk](mailto:CAHSS.UGAdmissions@ed.ac.uk)
+<br/>
+
+Student blog:
+[www.ppls.blog.ed.ac.uk](http://www.ppls.blog.ed.ac.uk/)
