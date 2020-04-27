@@ -78,13 +78,18 @@ count: false
 ]
 
 ---
-class: edi-softblue, center, middle, animated, bounceInDown
-
-# The Degree at Edinburgh
+class: edi-softblue, middle, center, animated, bounceInDown
+.pull-left[
+# Psychology at Edinburgh
+<br/><br/>
+## Psychology BSc
 <br/>
-## Psychology BSc (Hons)
-## Joint Honours Degrees
-
+## Joint Hons Degrees
+]
+.pull-right[
+.center[
+![:scale 70%](img/outside.jpg)
+]]
 ---
 # Basic Areas of Psychology
 
