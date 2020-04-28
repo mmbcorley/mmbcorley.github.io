@@ -172,7 +172,7 @@ Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |           
 Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
 
 ---
-# Methods in R
+# The Way We Teach
 
 ```{r demo}
 d <- data.frame(x=rnorm(100),y=rpois(100,lambda=3))
