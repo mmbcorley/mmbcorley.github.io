@@ -258,7 +258,6 @@ Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Method
 <br/>
 - joint degrees offered with related subjects:
 
-  - Artificial Intelligence
   - Linguistics
   - Sociology
   - Philosophy
@@ -283,7 +282,7 @@ Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Method
 <br/>
 .content-box-purple[
 - **year 2**: volunteer research programme
-- **year 3**: junior year abroad]
+- **year 3**: study abroad opportunities]
 ]
 
 ---
