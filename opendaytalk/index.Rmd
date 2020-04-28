@@ -65,6 +65,32 @@ count: false
 ![:scale 80%](img/bw-theresa_may_forever.jpg)
 ]
 ---
+  # Bump
+.center[
+<video width="70%" autoplay muted>
+  <source src="img/video/bump1.mp4" type="video/mp4">
+  video not supported by this browser
+</video>
+]
+.right[.tiny[©BBC]]
+
+- we need to look ahead of ourselves every 8s or so
+
+---
+# Time or Distance?
+
+.center[
+![:scale 90%](img/lee.png)
+]
+
+---
+# Time or Distance?
+
+.center[
+![:scale 95%](img/SwanstonHomePic.jpg)
+]
+
+---
 # Even Basic Activities are Complex
 
 .center[
@@ -91,7 +117,7 @@ class: edi-softblue, middle, center, animated, bounceInDown
 ![:scale 70%](img/outside.jpg)
 ]]
 ---
-# Basic Areas of Psychology
+# BPS Areas of Psychology
 
 - Biological Psychology
 - Cognitive Psychology
@@ -112,23 +138,37 @@ class: edi-softblue, middle, center, animated, bounceInDown
 
   |  |  |  | &nbsp;
 ---|-------------------|---------|------------|----------
-Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .red[Other Stuff] &nbsp;&nbsp;&nbsp;&nbsp; |  
-Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .red[Other Stuff]  &nbsp;&nbsp;&nbsp;&nbsp; |  
+.red[Y1] &nbsp;&nbsp;&nbsp;&nbsp;| .red[Basic Psychology]  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; |  
+.red[Y2] &nbsp;&nbsp;&nbsp;&nbsp; | .red[Basic Psychology] &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |  
 Y3 &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | Electives
 Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
 
 ---
-count: false
+# The Way We Teach
+.left-column[
+![](img/lecture.jpg)
+]
 
+.right-column[
+
+- lectures
+  - cover core topics in Psychology; guide reading
+- tutorials
+  - allow discussion and learning in depth
+- labs
+  - focus on "doing" psychology
+
+]
+---
 # Course Design
 
 <br/>
 
   |  |  |  | &nbsp;
 ---|-------------------|---------|------------|----------
-Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; |  
-Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |  
-Y3 &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+.red[Y1] &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; |  
+.red[Y2] &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |  
+.red[Y3] &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | .red[Methods] &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | Electives
 Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
 
 ---
@@ -142,20 +182,27 @@ summary(mod.1)
 
 
 ---
+# The Power of R
+
+.center[
+![](img/rstudio.png)
+]
+
+---
 # Course Design
 
 <br/>
 
   |  |  |  | &nbsp;
 ---|-------------------|---------|------------|----------
-Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; | <br/>  
-Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |
-Y3 &nbsp;&nbsp;&nbsp;&nbsp; | .red[Mini-Dissertation] &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .red[Critical Analysis] &nbsp;&nbsp;&nbsp;&nbsp; | Electives
-Y4 &nbsp;&nbsp;&nbsp;&nbsp; | .red[Dissertation] &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+.red[Y1] &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .yellow[Other Stuff] &nbsp;&nbsp;&nbsp;&nbsp; |  
+.red[Y2] &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .yellow[Other Stuff]  &nbsp;&nbsp;&nbsp;&nbsp; |  
+Y3 &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+
 
 ---
 count: false
-
 # Course Design
 
 <br/>
@@ -164,22 +211,61 @@ count: false
 ---|-------------------|---------|------------|----------
 Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; |  
 Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |  
-Y3 &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | .red[Electives]
-Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | .red[Electives]
+.red[Y3] &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | .red[Electives]
+.red[Y4] &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | .red[Electives]
 
+---
+count: false
+# Course Design
+
+<br/>
+
+  |  |  |  | &nbsp;
+---|-------------------|---------|------------|----------
+Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; | <br/>  
+Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |
+.red[Y3] &nbsp;&nbsp;&nbsp;&nbsp; | Mini-Dissertation &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | .red[Critical Analysis] &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+.red[Y4] &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |               | .red[Tutorials] &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+---
+count: false
+# Course Design
+
+<br/>
+
+  |  |  |  | &nbsp;
+---|-------------------|---------|------------|----------
+Y1 &nbsp;&nbsp;&nbsp;&nbsp;| Basic Psychology  &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff &nbsp;&nbsp;&nbsp;&nbsp; | <br/>  
+Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Other Stuff  &nbsp;&nbsp;&nbsp;&nbsp; |
+.red[Y3] &nbsp;&nbsp;&nbsp;&nbsp; | .red[Mini-Dissertation] &nbsp;&nbsp;&nbsp;&nbsp; | Methods &nbsp;&nbsp;&nbsp;&nbsp; | Critical Analysis &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+.red[Y4] &nbsp;&nbsp;&nbsp;&nbsp; | .red[Dissertation] &nbsp;&nbsp;&nbsp;&nbsp; |               | Tutorials &nbsp;&nbsp;&nbsp;&nbsp; | Electives
+
+---
+# Dissertations
+.left-column[
+![](img/1873.jpg)
+]
+
+.right-column[
+- The Role of Wealth in Unethical Behaviour
+- The Link between Mood and Forgetting
+- Religion, Personality, and Risk-Taking
+- Autistic Traits and Comprehension
+- Linguistic Illusions
+- Using Tinder to Examine Self-Sexualisation in 8 Nations 
+]
 ---
 # Joint Degrees
 <br/>
 - joint degrees offered with related subjects:
 
-  - artificial intelligence
-  - linguistics
-  - sociology
-  - philosophy
-  - economics
-  - business
+  - Artificial Intelligence
+  - Linguistics
+  - Sociology
+  - Philosophy
+  - Economics
+  - Business
   
-- also *cognitive science*
+- also *Cognitive Science*
 
 ---
 # Extras
@@ -193,7 +279,7 @@ Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |           
 .content-box-yellow[
 - personal tutor system
 - student support officers
-- PsychSoc]
+- PsychSoc & PsychPALS]
 <br/>
 .content-box-purple[
 - **year 2**: volunteer research programme
@@ -201,22 +287,38 @@ Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |           
 ]
 
 ---
-# Psychology
+# Psychology at Edinburgh
 <br/><br/>
 
-- broad-based discipline
+- world-leading University
 
-- scientific (often experimental)
+- chance to meet, and study with, international experts
 
-- looks at how people behave *in general*, rarely at specific individuals
+- degree focused on the skills needed do *do* psychology
+
+---
+# Building on the Skills You Learn...
+<br/>
+
+- you can get further qualifications & become a clinical psychologist
+<br/>
+
+- you can work as a researcher for various companies
+<br/>
+
+- you can go further & get a higher degree
+  - this lets you go into academia, maybe as a professor/lecturer
+<br/>
+
+- you can go into human resources & corporate management
+<br/>
+
+- you can go into consulting & advertising
 
 ---
 class: edi-softblue, center, middle
-
 # Thank You
-
-<br/>
-## More Information
+.pull-left[
 <br/>
 Psychology Website:
 [www.psy.ed.ac.uk](http://www.psy.ed.ac.uk)
@@ -228,3 +330,18 @@ Undergraduate Admissions Office:
 
 Student blog:
 [www.ppls.blog.ed.ac.uk](http://www.ppls.blog.ed.ac.uk/)
+]
+
+.pull-right[
+<br/><br/>
+.center[
+<video width="90%" autoplay muted>
+  <source src="img/video/bump2a.mp4" type="video/mp4">
+  video not supported by this browser
+</video>
+.right[.tiny[©BBC]]
+]
+
+.right[.tiny[
+[Martin.Corley@ed.ac.uk](mailto:Martin.Corley@ed.ac.uk)]
+]]
