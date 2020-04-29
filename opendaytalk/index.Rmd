@@ -1,7 +1,7 @@
 ---
-title: "Psychology"
-#subtitle: "Psychology"
-author: "Professor Martin Corley"
+title: "Offer Holders Online"
+subtitle: "Psychology"
+author: "Martin Corley"
 #institute: "University of Edinburgh"
 date: "April 2020"
 output:
@@ -80,13 +80,6 @@ count: false
 # Time or Distance?
 
 .center[
-![:scale 90%](img/lee.png)
-]
-
----
-# Time or Distance?
-
-.center[
 ![:scale 95%](img/SwanstonHomePic.jpg)
 ]
 
@@ -153,8 +146,8 @@ Y4 &nbsp;&nbsp;&nbsp;&nbsp; | Dissertation &nbsp;&nbsp;&nbsp;&nbsp; |           
 
 - lectures
   - cover core topics in Psychology; guide reading
-- tutorials
-  - allow discussion and learning in depth
+- tutorial work
+  - allows discussion and learning in depth
 - labs
   - focus on "doing" psychology
 
@@ -254,6 +247,26 @@ Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Method
 - Using Tinder to Examine Self-Sexualisation in 8 Nations 
 ]
 ---
+count: false
+# Dissertations
+.left-column[
+![](img/1873.jpg)
+]
+
+.right-column[
+- The Role of Wealth in Unethical Behaviour
+- The Link between Mood and Forgetting
+- Religion, Personality, and Risk-Taking
+- Autistic Traits and Comprehension
+- .red[Linguistic Illusions]
+- Using Tinder to Examine Self-Sexualisation in 8 Nations 
+]
+---
+class: center, middle
+
+**how many animals did Moses take on to the Ark?**
+
+---
 # Joint Degrees
 <br/>
 - joint degrees offered with related subjects:
@@ -314,6 +327,21 @@ Y2 &nbsp;&nbsp;&nbsp;&nbsp; | Basic Psychology &nbsp;&nbsp;&nbsp;&nbsp; | Method
 
 - you can go into consulting & advertising
 
+---
+# Linguistic Illusions
+
+.pull-left[.center[
+![:scale 70%](img/moses.jpg) <br/>
+Moses
+]]
+.pull-right[.center[
+![:scale 70%](img/noah.jpg) <br/>
+Noah
+]]
+
+.center[
+**Moses took <u>no</u> animals on the the Ark**
+]
 ---
 class: edi-softblue, center, middle
 # Thank You
