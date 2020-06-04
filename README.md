@@ -6,7 +6,8 @@
 - Some tips on [reducing the
   complexity](https://yongfu.name/2019/04/29/xaringan_tips.html) of
   Xaringan presentations
-  
+
+
 ## Some other possibly relevant stuff ##
 
 - The [patchwork](https://github.com/thomasp85/patchwork) project
