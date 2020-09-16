@@ -47,6 +47,22 @@ I want you to know that whichever way you're joining us, you're part of the psyc
 and I look forward to talking to you, virtually or in person, over the year.
 
 ---
+# Edinburgh Psychology
+.flex.items-top[.w-40.pa2[
+- founded 1906
+
+- consistently in world top 25
+
+- strong, diverse, research and teaching
+]
+.w-60.pa2[
+.center[
+![:scale 80%](img/psych1906.jpg)
+]]]
+
+
+
+---
 # 7 George Square
 
 .flex.items-center[.w-40.pa2[
@@ -65,6 +81,24 @@ In a normal year, we'd all be here
 in 7 George Square in at the Southern side of Edinburgh's Old Town.
 
 We are working on making parts of the building available for teaching and study.  But we know that much of what we do this year is going to be online.
+---
+
+# Working at Home
+
+.flex.items-center[.w-40.pa2[
+- temporary home of Psychology
+
+- "offices" all over Edinburgh
+  (and beyond)
+]
+.w-60.pa2[
+![](img/office.jpg)
+]]
+???
+- Introduce staff
+9. Rene, Patrick, Martin, Tim, Sharon
+
+3. Rene, Patrick, Elena, Tim, ThomasB, Anne, Rob
 ---
 # The Strange Year of 2020
 .center[
@@ -126,6 +160,18 @@ If you're doing a PhD, it can be slower for things to get going, but there is ac
 - talk to people (starting here!)
 
 - find details of [relevant research meetings](https://www.ed.ac.uk/ppls/psychology/research/seminars-and-reading-groups)
+---
+# Some Things to Do
+
+.flex.items-center[.w-50.pa2[
+- if you're in town, happy exploring!
+]
+.w-50.pa2[
+![](img/edinburgh.jpg)
+]]
+- if you can't be here yet:
+  [edinburghtourist.co.uk/virtual-tours](https://edinburghtourist.co.uk/virtual-tours)
+
 ---
 # Some People to Talk To
 .flex.items-center[.w70.pa2[
