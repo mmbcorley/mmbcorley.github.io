@@ -84,6 +84,36 @@ class: inverse, middle
 ## 3. how are you going to say it?
 ]
 
+---
+# The 5 Ws
+
+- **What** are you presenting?
+  + talk? poster? what is it about?
+  
+- **Why** are you presenting it?
+  + what's its purpose?
+  + what do you want people to take home?
+--
+
+- **Who** are you presenting to?
+
+- **When** and
+
+- **Where** are you presenting?
+
+---
+# What should be in my presentation?
+
+- **Background**
+  + just enough to motivate the research problem
+  
+- **Method**
+
+- **Results** and their interpretation/discussion
+  + think about statistics/graphs
+
+- **Summary and Conclusions**
+  + the all-important take-home message
 
 ---
 class: inverse, middle
