@@ -86,6 +86,7 @@ class: inverse, middle
 
 ---
 # The 5 Ws
+.pull-left[
 
 - **What** are you presenting?
   + talk? poster? what is it about?
@@ -93,15 +94,94 @@ class: inverse, middle
 - **Why** are you presenting it?
   + what's its purpose?
   + what do you want people to take home?
---
+
+]
+
+
+---
+count: false
+# The 5 Ws
+.pull-left[
+
+- **What** are you presenting?
+  + talk? poster? what is it about?
+  
+- **Why** are you presenting it?
+  + what's its purpose?
+  + what do you want people to take home?
+
+]
+
+.pull-right[
+```{r ggp,fig.asp=.6,echo=F}
+df <- tibble(x=1:10,y=x/3.6+rnorm(10,sd=1.1))
+df %>% ggplot(aes(x=x,y=y)) +
+  geom_point() +
+  geom_smooth(method="lm") +
+  xlab("hrs studying") +
+  ylab("understanding") +
+  theme_xaringan()
+```
+]
+---
+count: false
+# The 5 Ws
+.pull-left[
+
+- **What** are you presenting?
+  + talk? poster? what is it about?
+  
+- **Why** are you presenting it?
+  + what's its purpose?
+  + what do you want people to take home?
+
+]
+
+.pull-right[
+![](index_files/img/flowchart.svg)
+]
+
+---
+count: false
+# The 5 Ws
+.pull-left[
+
+- **What** are you presenting?
+  + talk? poster? what is it about?
+  
+- **Why** are you presenting it?
+  + what's its purpose?
+  + what do you want people to take home?
+
+]
+
+.pull-right[
+![](index_files/img/twotheories.png)
+]
+
+
+---
+count: false
+# The 5 Ws
+.pull-left[
+
+- **What** are you presenting?
+  + talk? poster? what is it about?
+  
+- **Why** are you presenting it?
+  + what's its purpose?
+  + what do you want people to take home?
 
 - **Who** are you presenting to?
 
 - **When** and
 
 - **Where** are you presenting?
-
+]
 ---
+
+
+
 # What should be in my presentation?
 
 - **Background**
