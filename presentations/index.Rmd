@@ -11,7 +11,7 @@ output:
       - xaringan-themer.css
       - mc_libs/tweaks.css
     nature:
-      beforInit: "mc_libs/macros.js"
+      beforeInit: "mc_libs/macros.js"
       ratio: '16:9'
       highlightStyle: github
       highlightLines: true
@@ -89,15 +89,57 @@ class: inverse, middle
 .pull-left[
 
 - **What** are you presenting?
+
+  + talk? poster? what is it about?
+]
+
+---
+# Talks
+
+.pull-left[
+- usually a sequence of slides
+
+- these are "props"
+  + the talk isn't _on_ the slides
+  
+- in conferences, typically 10-25 minutes
+  + lectures, plenaries, much more
+]
+.pull-right.center[
+![:scale 80%](index_files/img/slidedeck.svg)
+]
+???
+- how many slides/minute? (Varies, but fewer can be better)
+---
+# Posters
+
+.pull-left[
+- usually an A1 or A0 poster
+
+- this is a "prop"
+  + the message isn't _on_ the poster
+  
+- in conferences, typically 1-2 hr sessions
+  + presenters stand near posters and present/discuss
+]
+
+.pull-right.center[
+![:scale 80%](index_files/img/poster.svg)
+]
+???
+- for Americans, A0 is a bit like ANSI size **E**
+---
+# The 5 Ws
+.pull-left[
+
+- **What** are you presenting?
   + talk? poster? what is it about?
   
 - **Why** are you presenting it?
   + what's its purpose?
-  + what do you want people to take home?
+  + what is the take-home message?
 
 ]
-
-
 ---
 count: false
 # The 5 Ws
@@ -108,7 +150,7 @@ count: false
   
 - **Why** are you presenting it?
   + what's its purpose?
-  + what do you want people to take home?
+  + what is the take-home message?
 
 ]
 
@@ -133,7 +175,7 @@ count: false
   
 - **Why** are you presenting it?
   + what's its purpose?
-  + what do you want people to take home?
+  + what is the take-home message?
 
 ]
 
@@ -151,7 +193,7 @@ count: false
   
 - **Why** are you presenting it?
   + what's its purpose?
-  + what do you want people to take home?
+  + what is the take-home message?
 
 ]
 
@@ -170,7 +212,7 @@ count: false
   
 - **Why** are you presenting it?
   + what's its purpose?
-  + what do you want people to take home?
+  + what is the take-home message?
 
 - **Who** are you presenting to?
 
@@ -194,7 +236,15 @@ count: false
 
 - **Summary and Conclusions**
   + the all-important take-home message
+---
+# Telling a Story
 
+.center[
+![](index_files/img/narrative.jpg)
+]
+.tr[
+(Anna Clemens, [Writing a Page-Turner](https://blogs.lse.ac.uk/impactofsocialsciences/2018/05/21/writing-a-page-turner-how-to-tell-a-story-in-your-scientific-paper/))
+]
 ---
 # K. I. S. S.
 
@@ -236,3 +286,91 @@ class: inverse, middle
 .pt3[
 ## 3. .primary[how are you going to say it?]
 ]
+
+
+---
+class: inverse
+background-image: url("index_files/img/bg.svg")
+
+# Style over Substance
+
+.pt2.secondary[
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ligula feugiat, semper urna vitae, lobortis est. Donec varius lorem eget dolor dictum vehicula. Quisque fermentum nisi sem, id mollis libero finibus eu. Phasellus lacinia efficitur dignissim. Curabitur ut eros non augue ullamcorper consectetur. Aenean semper eros quis urna commodo, pharetra ornare urna efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras vehicula fringilla nisl. Proin venenatis elit eget euismod pretium. Proin id arcu nisi. Maecenas tristique, eros a pharetra viverra, tellus metus volutpat nisl, vitae interdum enim mauris non diam. Pellentesque placerat convallis odio.
+]
+
+---
+# Style over Substance
+
+.center[
+![](index_files/img/badgraph.png)
+]
+
+---
+# Substance over Style
+
+.center[
+```{r graph,echo=F,fig.asp=.6}
+df <- tibble(RT=c(540,628,577,645),se=c(18,20,19,21),um=as_factor(c('y','n','y','n')),freq=as_factor(c('hi','hi','lo','lo')))
+df %>% ggplot(aes(x=freq,y=RT,fill=um)) +
+  geom_bar(stat="identity",position=position_dodge()) +
+  geom_errorbar(aes(ymin=RT-se,ymax=RT+se),width=.2,position=position_dodge(.9)) +
+  ylab("correct response time (ms)") +
+  xlab("image name") +
+  scale_fill_manual(values=c("#FCBB06","#5F76B7"),
+    name="fluent",breaks=c("y","n"),labels=c("+ um","- um")) + scale_x_discrete(breaks=c("hi","lo"),labels=c("high freq","low freq")) +
+  coord_cartesian(ylim=c(200,700)) +
+  theme_xaringan() +
+  theme(legend.title=element_blank())
+  
+```
+]
+- response time faster for .secondary[disfluent] compared to .primary[fluent] instructions
+---
+# Style over Substance
+---
+count: false
+# Style over Substance
+
+.animated.swing[
+- fancy effects may help control the "flow" of information
+]
+
+---
+count: false
+# Style over Substance
+
+- fancy effects may help control the "flow" of information
+
+.pt2.animated.bounceInRight[
+- but beware "dancing baloney"
+]
+
+---
+count: false
+# Style over Substance
+
+- fancy effects may help control the "flow" of information
+
+.pt2[
+- but beware "dancing baloney"
+]
+
+.pt2.animated.rollIn[
+- and sound effects...
+]
+
+---
+# Making a Poster
+
+
+
+
+- there is [a whole bunch of RMarkdown templates](https://gist.github.com/Pakillo/4854e5d760351206084f6be8abe476b2) 
+
+- for a radical approach, see [Mike Morrison's #betterposter videos](https://www.youtube.com/watch?v=1RwJbhkCA58)
+
+
+---
+# Acknowledgements
+
+- icons by Musavvir Ahmed, IconMark from the [Noun Project](https://thenounproject.com/)
