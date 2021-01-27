@@ -4,7 +4,7 @@
     <title>Presentations</title>
     <meta charset="utf-8" />
     <meta name="author" content="Martin Corley" />
-    <meta name="date" content="2021-01-26" />
+    <meta name="date" content="2021-01-27" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
@@ -19,9 +19,10 @@
 class: center, middle, inverse, title-slide
 
 # Presentations
+## .f4[mmbcorley.github.io/presentations/]
 ### Martin Corley
 ### Department of Psychology<br/>The University of Edinburgh
-### 2021-01-26
+### 2021-01-27
 
 ---
 
@@ -32,6 +33,15 @@ class: center, middle, inverse, title-slide
 
 
 
+# Orientation
+
+- there are quite a few resources and examples linked into these slides
+
+- anything **in purple** that seems like a link probably is
+
+- these slides can be viewed at [https://mmbcorley.github.io/presentations/](https://mmbcorley.github.io/presentations/)
+
+---
 class: inverse, middle
 ## 1. what are you going to say?
 
@@ -106,6 +116,34 @@ class: inverse, middle
 ???
 - for Americans, A0 is a bit like ANSI size **E**
 ---
+# Talks vs Posters
+
+.pull-left[
+## Talks &gt; Posters
+
+- talks are more prestigious
+
+- posters might attract more criticism
+
+- posters can be harder to prepare
+
+]
+
+--
+
+.pull-right[
+## Posters &gt; Talks
+
+- posters are less scary
+
+- posters get more detailed feedback
+
+- less can go wrong with a poster
+
+]
+
+---
+
 # The 5 Ws
 .pull-left[
 
@@ -148,7 +186,7 @@ count: false
 
 ]
 
-.pull-right[
+.pull-right.center[
 ![](index_files/img/flowchart.svg)
 ]
 
@@ -243,19 +281,94 @@ class: inverse, middle
 .pt3[
 ## 3. how are you going to say it?
 ]
+???
+- you're the storyteller; your slides, or poster, are your props.  We'll talk about some general principles for making these look better.
 ---
-class: inverse, middle
-## 1. what are you going to say?
+# C.R.A.P.
 
+.flex.items-center[
+.w-70.pa1[
+- **C**ontrast
+  + avoid elements that are merely similar
+  
+- **R**epetition
+  + repeat visual elements; consistency creates unity
+  
+- **A**lignment
+  + nothing should be placed on the page arbitrarily
+  
+- **P**roximity
+  + group related information together
+
+]
+.w-30.pa1[
+![](index_files/img/book.png)
+]]
+
+---
+# Less is More
+
+- long sentences which contain a lot of technical detail, and/or
+  TLAs (three-letter acronyms), and/or punctuation (and/or information
+  in parentheses) which take up several lines of (possibly quite
+  small, poorly spaced) text are not only difficult to read, they also
+  distract the audience from listening to what you are actually
+  saying...
+  
+--
 
 .pt3[
-## 2. what props do you need?
+- avoid words
+
+  + shorter sentences are more engaging
+  
+  + try to keep each point to one line
+  
+  + exploit white space to make the text easier to read
 ]
+
+---
+# Avoid Words
+
+.pull-left[
+- most active phoneme is selected
+
+- selected phoneme drives the speech plan
+]
+.pull-right.center[
+![:scale 63%](index_files/img/tt2.svg)
+]
+.pull-left[
+- relevant phonemes accrue activation
+
+- activation cascades to articulation
+
+]
+.pull-right.center[
+![:scale 63%](index_files/img/ttc1.svg)
+]
+---
+# Simplify Lists
+
+&lt;ul&gt;
+&lt;li&gt;bulleted lists can be very useful&lt;br/&gt;&amp;nbsp;&lt;/li&gt;
+
+
+  &lt;ul&gt;
+  &lt;li&gt;but be careful there aren't too many levels&lt;br/&gt;&amp;nbsp;&lt;/li&gt;
+  
+
+    &lt;ul&gt;
+    &lt;li&gt;by here, things look messy&lt;br/&gt;&amp;nbsp;&lt;/li&gt;
+    
+    &lt;li&gt;should only use &gt;2 levels if absolutely necessary&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
 
 .pt3[
-## 3. .primary[how are you going to say it?]
+- it's perfectly possible to make [slides without _any_ bullet points](https://docs.google.com/presentation/d/1oBFoHvNyuvcEIx18j4hVO0jiWTeFjUSReFheegujsIg/edit?usp=sharing)
 ]
-
 
 ---
 class: inverse
@@ -316,20 +429,242 @@ count: false
 ]
 
 ---
+# Making Slides
+
+.flex.items-center[
+.pa1.w-70[
+- MS PowerPoint
+  + slightly dated these days
+  + easy to make ugly slides
+  + Slide Master is a good way to control C.R.A.P.
+  
+- [Beamer](https://github.com/josephwright/beamer)
+  + uses `\(\LaTeX\)` or Markdown
+  + consistent pdf slides
+  + not for the fainthearted!
+]]
+
+---
+count: false
+# Making Slides
+
+.flex.items-center[
+.pa1.w-70[
+- MS PowerPoint
+  + slightly dated these days
+  + easy to make ugly slides
+  + Slide Master is a good way to control C.R.A.P.
+  
+- [Beamer](https://github.com/josephwright/beamer)
+  + uses `\(\LaTeX\)` or Markdown
+  + consistent pdf slides
+  + not for the fainthearted!
+
+- [Xaringan](https://github.com/yihui/xaringan)
+  + uses RMarkdown
+  + modern HTML slides
+  + fully integrated into RStudio
+]
+.pa1.w-30[
+![](index_files/img/xaringan.png)
+]]
+---
 # Making a Poster
 
+- MS PowerPoint, [beamerposter](https://github.com/deselaers/latex-beamerposter)
 
+- [Inkscape](https://inkscape.org/) (free) or Adobe Illustrator ($$$)
+  + [tutorial available online](https://scifundchallenge.org/self-guided-class-poster-design-for-scientists/poster-class-part-0-introduction/)
 
+--
 
+.pt4[
 - there is [a whole bunch of RMarkdown templates](https://gist.github.com/Pakillo/4854e5d760351206084f6be8abe476b2) 
 
-- for a radical approach, see [Mike Morrison's #betterposter videos](https://www.youtube.com/watch?v=1RwJbhkCA58)
+  + for a radical approach, see [Mike Morrison's #betterposter videos](https://www.youtube.com/watch?v=1RwJbhkCA58)
+]
+---
 
+class: inverse, middle
+## 1. what are you going to say?
+
+
+.pt3[
+## 2. what props do you need?
+]
+
+.pt3[
+## 3. .primary[how are you going to say it?]
+]
+
+---
+# Conventions:  Talks
+
+- 10-25 minutes
+
+- usually followed by questions
+
+- session chair, or host
+  + introduces speakers
+  + keeps time (often using signs)
+  + ensures the session runs smoothly
+---
+# Giving a Talk
+
+
+### beginnings, signposts, and endings
+
+- don't start with an apology!
+
+- clearly signpost the important bits of the talk
+  + especially the end...
+  
+- begin and end on a high note: have a final phrase ready
+
+--
+
+### rehearse, rehearse, rehearse
+
+- out loud, preferably in front of an audience
+
+- time your talk, and ask for feedback
+
+---
+# Timing and Planning
+
+
+### people talk faster under pressure
+
+
+
+- pauses give the audience time to think
+  + e.g., to interpret graphs
+  
+- they give _you_ a chance to organise your thoughts
+  + take a deep breath, have a drink...
+  
+- they can signal a change in topic
+  + they can refocus attention
+.tr.f5[
+  [(Collard et al., 2008)](https://doi.org/10.1037/0278-7393.34.3.696)
+]
+
+---
+# Managing your Nerves
+
+- preparation and rehearsal are key
+
+- check out the room for your presentation
+
+  + how big is it? will you need to use a microphone?
+  
+  + is there somewhere to put any notes?
+  
+  + try out the equipment if possible
+  
+  + talk to the session chair about how things will run
+
+---
+# Troubleshooting
+
+- technical difficulties
+  + have a backup copy of your talk available
+  + have a version in a universal format such as pdf
+  
+- drying up
+  + pause; backtrack; make sure your notes are readable
+  
+- overrunning
+  + decide in advance which bits you can cut or skim
+  
+- underrunning
+  + slow down!
+---
+# I Dislike Talks Where The Speaker...
+
+.pull-left[
+
+- loses the audience early on
+
+- waffles, or goes off on a tangent
+
+- rushes, **especially through data**
+
+- is inaudible
+
+- reads straight from a script
+
+]
+
+.pull-right[
+![](index_files/img/bored.jpg)
+
+]
+
+---
+# Coventions: Posters
+
+- presenters given dedicated spot to hang poster
+
+- session usually lasts 1-2 hours, e.g., over lunch
+
+- presenters are expected to be near their posters
+
+---
+# Presenting Posters
+
+- be prepared to talk people through the poster
+  + prepare a short and a longer spiel
+  + be responsive to body language! stop talking if they're backing away
+  + make sure they leave with a take-home message
+  
+- don't feel you have to stand there for the whole session
+  + handouts
+  + blank paper and pen for email addresses
+  
+---
+# Question/Poster Session Myths and Legends
+
+1. it's very common to be "savaged"
+  
+  + on these occasions, questioner becomes very unpopular
+  
+  + tolerated where presenter is arrogant or makes outlandish claims
+  
+1. you have to know the answer
+
+  + of course you don't
+  
+  + "that's an interesting question.  I'm not sure at the moment, but could we talk about it during the next break?"
+
+---
+# Conclusion
+
+.pull-left[
+- a talk or poster tells a _story_
+
+  + keep the story simple
+  
+- the story is not _on_ the slides or poster
+
+  + use simple, consistent visual elements to _support_ your story
+  
+- planning and preparation are key
+
+  + most important question: what do you want your audience to know?
+]
+
+.pull-right.center[
+![:scale 60%](index_files/img/takehome.svg)
+]
 
 ---
 # Acknowledgements
 
 - icons by Musavvir Ahmed, IconMark from the [Noun Project](https://thenounproject.com/)
+
+- bag image by Image by fajarbudi86 from [pixabay](https://pixabay.com)
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
