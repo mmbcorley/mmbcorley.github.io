@@ -575,7 +575,8 @@ class: inverse, middle
 ---
 # Timing and Planning
 
-
+.flex.items-center[
+.w-60.pa1[
 ### people talk faster under pressure
 
 
@@ -587,10 +588,13 @@ class: inverse, middle
   + take a deep breath, have a drink...
   
 - they can signal a change in topic
-  + they can refocus attention
-.tr.f5[
+  + they can refocus attention .tr.f5[
   [(Collard et al., 2008)](https://doi.org/10.1037/0278-7393.34.3.696)
-]
+]]
+
+.w-40.pa1[
+![](index_files/img/timing.jpg)
+]]
 
 ---
 # Managing your Nerves
