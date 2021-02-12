@@ -1,0 +1,183 @@
+---
+title: "MSc Psychological Research Skills"
+subtitle: "Psychology, PPLS"
+author: "Professor Martin Corley"
+#institute: "University of Edinburgh"
+date: "February 2021"
+output:
+  xaringan::moon_reader:
+    css:
+      - default
+      - "mc_libs/hygge-edi.css"
+      - "mc_libs/edi-colours.css"
+      - "mc_libs/edi-fonts.css"
+    lib_dir: libs
+    nature:
+      beforeInit: "mc_libs/macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+#   seal: false
+editor_options: 
+  chunk_output_type: console
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(digits=4,scipen=2)
+options(knitr.table.format="html")
+xaringanExtra::use_xaringan_extra(c("tile_view","animate_css","tachyons"))
+xaringanExtra::use_extra_styles(
+  mute_unhighlighted_code = FALSE
+)
+library(knitr)
+library(tidyverse)
+#library(ggplot2)
+knitr::opts_chunk$set(
+  dev = "svg",
+  warning = FALSE,
+  message = FALSE,
+  cache = TRUE,
+  fig.showtext = TRUE
+)
+```
+
+class: inverse,center, middle
+
+# WELCOME
+
+---
+
+# Edinburgh Psychology
+.flex.items-center[.w-40.pa2[
+- Edinburgh founded 1583
+
+- psychology founded 1906
+
+- currently ca. 40 faculty, ca. 800 students
+
+- strong, diverse, research and teaching
+]
+.w-60.pa2[
+.center[
+![:scale 80%](index_files/img/psych1906.jpg)
+]]]
+
+???
+- we're in our 115th year
+
+- not been the easiest of years, but we're thriving
+---
+# World-Class Department
+
+.pull-left[
+
+- **22nd** in the world .tr[
+(THE, 2021)
+]
+
+- **24th** in the world .tr[
+(QS, 2020)
+]
+]
+.pull-right[
+![](index_files/img/7GS.jpg)
+
+.center.pt2.f3[
+(home of Psychology at 7 George Sq)
+]]
+
+
+???
+
+- consistently ranked among the top 25 places to research and study psychology in the world
+
+- recently attracted some of the best young international scientists
+
+---
+# Research Themes
+
+.flex.items-center[.w-50.pa2[
+
+- cognition & neuroscience
+
+- human development
+
+- individual differences
+
+- language
+
+- social psychology
+]
+.w-50.pa2[
+![](index_files/img/research.jpeg)
+]]
+
+???
+- five research groupings, strongly interdisciplinary
+
+- many leading international scholars make their homes at Edinburgh
+
+- opportunity to specialise in these areas for MSc research dissertation
+
+---
+class: animated, fadeIn, inverse
+
+![:scale 95%](index_files/img/world.png)
+???
+- as you can see, Edinburgh is at the exact centre of the earth (!)
+
+- attracts the best international students 
+  + a thriving international community of scholars
+
+---
+# MSc Psychological Research
+
+.flex.items-center[.w-50.pa2[
+- one-year MSc (Sep-Aug)
+
+- intensive research training
+
+- topic courses led by world-leading experts
+
+- research dissertation
+
+]
+
+.w-50.pa2[
+![](index_files/img/rstudio.png)
+]]
+
+---
+# Studying in Edinburgh
+
+.flex.items-center[.w-50.pa2[
+- amazing city
+
+- volcano, beach, castle
+
+- hundreds of years of history
+]
+.w-50.pa2[
+![](index_files/img/edinburgh.jpg)
+]]
+
+.center[
+[virtualvisits.ed.ac.uk/](https://virtualvisits.ed.ac.uk)
+]
+---
+class: middle, center
+
+### biogs of alumni go here
+---
+
+class: center, inverse, middle
+# Thank You
+
+.pt[
+&nbsp;
+]
+
+.br3.center.pa2.pt3.bg-moon-gray.white.f4[
+these slides: [mmbcorley.github.io/recruit2021](https://mmbcorley.github.io/recruit2021)
+]
