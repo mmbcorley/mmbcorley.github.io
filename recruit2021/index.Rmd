@@ -163,7 +163,7 @@ class: animated, fadeIn, inverse
 ]]
 
 .center[
-[virtualvisits.ed.ac.uk/](https://virtualvisits.ed.ac.uk)
+[virtualvisits.ed.ac.uk](https://virtualvisits.ed.ac.uk)
 ]
 ---
 class: middle, center
