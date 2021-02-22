@@ -2,6 +2,10 @@
 /* Edinburgh Style Guide              */
 /* https://www.ed.ac.uk/files/atoms/files/uoe-brand-essentials-chapter-nine-drawn-to-edinburgh.pdf */
 
+body {
+  color: #00325F;
+}
+
 a, a > code {
   color: rgb(0, 145, 181);
   text-decoration: none;
@@ -61,13 +65,14 @@ h1, h2, h3 {
 .inverse {
   background-color: #00325f;
   color: #c2d3df;
-  text-shadow: 0 0 20px #00c4df;
+  /* text-shadow: 0 0 20px #00c4df; */
   /* 001A57 728302*/
 }
 
 .inverse h1, .inverse h2, .inverse h3 {
   color: #c2d3df;
   line-height: 0.8em;
+  text-shadow: 0 0 10px #00c4df;
 }
 
 .imageTop {
