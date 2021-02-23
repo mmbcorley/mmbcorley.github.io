@@ -1,6 +1,6 @@
 ---
-title: "MSc Psychological Research Skills"
-subtitle: "Psychology, PPLS"
+title: "An Introduction to Psychology"
+subtitle: "School of Philosophy, Psychology and Language Sciences (PPLS)"
 author: "Professor Martin Corley"
 #institute: "University of Edinburgh"
 date: "February 2021"
@@ -46,9 +46,9 @@ class: inverse
 
 # Welcome
 
-.pt2[
+
 - .orange[today's session is being recorded.] Any information that you provide during a session is optional and in doing so you give us consent to process this information.
-]
+
 
 - these sessions will be stored by the University of Edinburgh for one year and published on our website after the event. Schools or Services may use the recordings for up to a year on relevant websites.
 
@@ -68,11 +68,11 @@ class: inverse
 
 - .orange[Martin Corley, Head of Psychology]
 
-- Shivani Gupta, Recent Graduate
+- Shivani Gupta, MSc Graduate (2015)
 
 - Harish Lokhun, Regional Manager, South Asia
 
-- Raji Madhavan, Recent Graduate
+- Raji Madhavan, MSc Graduate (2019)
 
 - Sarah Moore, Marketing and Communications
 
@@ -117,7 +117,7 @@ class: animated, fadeIn
 ]
 .w-60.pa2[
 .center[
-![:scale 80%](index_files/img/psych1906.jpg)
+![:scale 75%](index_files/img/psych1906.jpg)
 ]]]
 
 ???

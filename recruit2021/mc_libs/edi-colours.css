@@ -13,7 +13,7 @@ a, a > code {
 
 h1, h2, h3 {
   color: #00325F;
-  line-height: 0.6em;
+/* line-height: 0.6em; */
   text-shadow: 0 0 10px #666666;
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3 {
 
 .inverse h1, .inverse h2, .inverse h3 {
   color: #c2d3df;
-  line-height: 0.8em;
+/*  line-height: 0.8em; */
   text-shadow: 0 0 10px #00c4df;
 }
 
