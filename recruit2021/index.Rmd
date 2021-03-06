@@ -301,7 +301,7 @@ class: inverse
 - problem-based social psychological research
 ]
 .pull-right[
-- qualtitative methods in psychological research
+- qualitative methods in psychological research
 
 - research methods in social psychology
 
