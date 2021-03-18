@@ -1,0 +1,48 @@
+---
+title: "An Introduction to Psychology"
+subtitle: "Bristol University"
+author: "Professor Martin Corley"
+#institute: "University of Edinburgh"
+date: "March 26 2021"
+output:
+  xaringan::moon_reader:
+    css:
+      - default
+      - "mc_libs/hygge-edi.css"
+      - "mc_libs/edi-colours.css"
+      - "mc_libs/edi-fonts.css"
+    lib_dir: libs
+    nature:
+      beforeInit: "mc_libs/macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+#   seal: false
+editor_options: 
+  chunk_output_type: console
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(digits=4,scipen=2)
+options(knitr.table.format="html")
+xaringanExtra::use_xaringan_extra(c("tile_view","animate_css","tachyons"))
+xaringanExtra::use_extra_styles(
+  mute_unhighlighted_code = FALSE
+)
+#library(ggplot2)
+knitr::opts_chunk$set(
+  dev = "svg",
+  warning = FALSE,
+  message = FALSE,
+  cache = TRUE,
+  fig.showtext = TRUE
+)
+```
+class: inverse
+
+# HELLO
+
+---
+# A Big Slide
+

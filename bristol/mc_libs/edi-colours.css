@@ -1,0 +1,93 @@
+/* Colors are defined by the          */
+/* Edinburgh Style Guide              */
+/* https://www.ed.ac.uk/files/atoms/files/uoe-brand-essentials-chapter-nine-drawn-to-edinburgh.pdf */
+
+body {
+  color: #00325F;
+}
+
+a, a > code {
+  color: rgb(0, 145, 181);
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #00325F;
+/* line-height: 0.6em; */
+  text-shadow: 0 0 10px #666666;
+}
+
+.edi-orange {
+  background-color: #F4AA00;
+}
+
+.edi-orange a, .edi_orange a > code {
+  color: rgb(0,145,181);
+  text-decoration: none;
+}
+.edi-orange h1, .edi-orange h2, .edi-orange h3 {
+  color: #005072;
+  line-height: 0.8em;
+  text-shadow: 0 0 10px #666666;
+}
+
+.edi-softblue {
+  background-color: #0091B5;
+  color: #c2d3df;
+}
+
+.edi-softblue a, .edi-softblue a > code {
+  /* color: rgb(153,50, 153); */
+  color: rgb(0,50,95);
+  text-decoration: none;
+}
+.edi-softblue h1, .edi-softblue h2, .edi-softblue h3 {
+  color: #00325f;
+  line-height: 0.8em;
+  text-shadow: 0 0 10px #00c4df;
+}
+
+.edi-green {
+  background-color: #9c9a00;
+  /* color: #FFD960; */
+}
+.edi-green h1, .edi-green h2, .edi-green h3 {
+  color: #00325f;
+  line-height: 0.8em;
+  text-shadow: 0 0 10px #457e81;
+}
+
+.edi-green a, .edi-green a > code {
+  color: rgb(0,50,95);
+  text-decoration: none;
+}
+
+.inverse {
+  background-color: #00325f;
+  color: #c2d3df;
+  /* text-shadow: 0 0 20px #00c4df; */
+  /* 001A57 728302*/
+}
+
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #c2d3df;
+/*  line-height: 0.8em; */
+  text-shadow: 0 0 10px #00c4df;
+}
+
+.imageTop {
+  vertical-align: top;
+}
+
+/* logo on title page */
+.title-slide.remark-slide-content:before{
+  position: absolute;
+  height:60px;
+  top: 20px;
+  left: 20px;
+  content:url("logo.svg");
+}
+
+/* code highlights */
+
+.remark-code-line-highlighted { background-color: #00c4df; }
