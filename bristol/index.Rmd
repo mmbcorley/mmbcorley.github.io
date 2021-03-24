@@ -348,9 +348,9 @@ count: false
 
 - diminishing money in UK will increase role for centres, CDTs
 
-- there may be incentives for far-east collaborations
+- partner working of increasing importance
 
-- ARIA, whatever that turns out to be
+- far-east collaborations; ARIA, whatever that turns out to be
 
 --
 
@@ -424,7 +424,7 @@ count: false
 
   + professionalise some aspects?
 
-- career pathways, advice, skills emphasis
+- career pathways, advice, skills emphasis, partnership
 ---
 class: inverse
 # Visibility
@@ -467,9 +467,11 @@ background-size: 100%
 .w-50.pa2[
 - refocused teaching
 
-- _planned_ staff, student numbers
+- _planned_ size
 
 - increased diversity
+
+- embedded in community
 ]]]
 
 --
