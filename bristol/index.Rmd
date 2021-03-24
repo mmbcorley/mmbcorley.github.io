@@ -132,17 +132,24 @@ count: false
 ---
 # Articulation Studies
 .center[
-<video width= "90%" controls>
-  <source src="index_files/img/prediction.mp4" type="video/mp4">
-  video not supported by this browser
-</video>
+
+![](index_files/img/ultracap.png)
+
 ]
 ???
 maybe a slide to set the research question?
 ---
+count: false
 # Articulation Studies
 .center[
-<video width= "70%" controls>
+
+![](index_files/img/ultratap.png)
+
+]
+---
+# Articulation Studies
+.center[
+<video width= "60%" controls>
   <source src="index_files/img/pred2.mp4" type="video/mp4">
   video not supported by this browser
 </video>
@@ -282,9 +289,9 @@ class: inverse, center, middle, animated, bounceInRight
 ![](index_files/img/listen.png)
 ]
 .w-80.pa2[
-- _listen_ to 42 + 12 people who know more than me
+- ~ 1,100 people who know more than me
 
-- listen to postdocs, PhD students, UG students
+- listen to staff (1-3), PSS, PhD/MSci students, UG students
 
   - find out what's going well, and support it
 
@@ -294,7 +301,7 @@ class: inverse, center, middle, animated, bounceInRight
 ]]
 
 ---
-# What I've Picked Up On
+# Issues I've Picked Up On
 
 .pull-left[
 - space
@@ -311,6 +318,11 @@ class: inverse, center, middle, animated, bounceInRight
 ---
 # Space
 
+.flex.items-center[
+.pa2.w-25[
+![](index_files/img/space.jpg)
+]
+.pa2.w-75[
 - .edi-softblue[continued campaign for new space]
 
 - confirm "space according to need" policy
@@ -321,42 +333,118 @@ class: inverse, center, middle, animated, bounceInRight
   
   + e.g., rethink (some) small-group teaching?
 
+- split buildings as last resort
+]]
 ---
 # Research
+
+.center[
+![:scale 50%](index_files/img/crystal-ball.jpg)
+]
+
+---
+count: false
+# Research
+
+- diminishing money in UK will increase role for centres, CDTs
+
+- there may be incentives for far-east collaborations
+
+- ARIA, whatever that turns out to be
+
+--
+
+- plan ahead for bigger bids
+
+  + centre for health behaviours?
+  
+  + CDT in cognitive science (with computer science)?
+  
+  + cross-university bids (Zero Carbon)?
+
+---
+# Research
+
+- Bristol is quite "top-heavy", need to plan for the future
+
+  + hiring plans (new area? consolidate existing?)
+
+- built-in support for ECR (and middle!)
+
+  + reductions in teaching, incentives to submit grants
+  
+  + biased PhD studentship allocations
+  
+  + mentoring, Co-I, career development
 
 
 ---
 # Student Numbers
 
+.left-column[
+![](index_files/img/crowd.svg)
+]
+.right-column[
 - influx of students (56% increase against 8% FTE)
 
 - workload and space issues
 
---
+
+]
+---
+count: false
+# Student Numbers
+
+.left-column[
+![](index_files/img/crowd.svg)
+]
+.right-column[
+- influx of students (56% increase against 8% FTE)
+
+- workload and space issues
+
 
 - consolidate teaching, find efficiencies
 
   + marking is often a time sink
 
 - consider focus on fewer programmes
-
+]
 ---
 # Student Satisfaction
+- .edi-softblue[be able to articulate to students why we do what we do]
 
+  + teaching as a team activity, everyone invested
+  
+  + vertical and horizontal integration of courses
+  
+  + students are surprisingly receptive to challenge
 
+- provide first-class student support
 
+  + professionalise some aspects?
+
+- career pathways, advice, skills emphasis
 ---
 class: inverse
 # Visibility
 
-- Bristol is a great department
+--
 
-- not everybody seems to know that
+.center[
+![:scale 70%](index_files/img/happiness.png)
+]
+
+--
+
+- PsychSci is a great school, but not everybody seems to know
 
   + important internally (changes need traction and support)
   
   + important externally (rankings, etc.)
 
+???
+happiness 20-credit course given by Bruce Hood
 ---
 background-image: url("index_files/img/newbuild.jpg")
 background-position: center
@@ -381,7 +469,7 @@ background-size: 100%
 
 - _planned_ staff, student numbers
 
-- diverse recruitment strategies
+- increased diversity
 ]]]
 
 --
@@ -394,7 +482,17 @@ marquee event to celebrate 120th year
 ---
 class: inverse, center, middle
 
+# Thank You
+
+.pt4[&nbsp;]
+
+[mmbcorley@gmail.com](mailto:mmbcorley@gmail.com)
+
+---
+class: inverse, center, middle
+
 # Appendix
+
 
 ---
 class: animated, bounceInRight
@@ -441,4 +539,3 @@ count: false
 .center[
 ![:scale 60%](index_files/img/image2.png)
 ]
-
