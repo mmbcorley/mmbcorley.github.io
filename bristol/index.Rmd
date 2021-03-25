@@ -409,6 +409,8 @@ count: false
   + marking is often a time sink
 
 - consider focus on fewer programmes
+
+- plan size and avoid re-baselining
 ]
 ---
 # Student Satisfaction
