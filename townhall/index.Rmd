@@ -92,7 +92,7 @@ class: inverse
 
 - where we can't teach on-campus we will teach online
 
-  + more synchronous ("live") online classes
+  + more synchronous ("live") online classes, timetabled
   
 --
 
