@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="lecture01_files/libs/clipboard/clipboard.min.js"></script>
-<script src="lecture01_files/libs/quarto-html/tabby.min.js"></script>
-<script src="lecture01_files/libs/quarto-html/popper.min.js"></script>
-<script src="lecture01_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="lecture01_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="lecture01_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="lecture01_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="lecture01_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="lecture02_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lecture02_files/libs/quarto-html/tabby.min.js"></script>
+<script src="lecture02_files/libs/quarto-html/popper.min.js"></script>
+<script src="lecture02_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="lecture02_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lecture02_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="lecture02_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="lecture02_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Martin Corley">
-  <meta name="dcterms.date" content="2024-01-15">
-  <title>Introduction</title>
+  <meta name="dcterms.date" content="2024-01-17">
+  <title>Speech Errors</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="lecture01_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="lecture01_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="lecture02_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="lecture02_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -50,12 +50,12 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="lecture01_files/libs/revealjs/dist/theme/quarto.css">
-  <link href="lecture01_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="lecture01_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="lecture01_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="lecture01_files/libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
-  <link href="lecture01_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="lecture02_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="lecture02_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="lecture02_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="lecture02_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="lecture02_files/libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
+  <link href="lecture02_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -346,7 +346,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="_theme/logo.svg" data-background-position="2% 2%" data-background-size="25%" class="quarto-title-block center">
-  <h1 class="title">Introduction</h1>
+  <h1 class="title">Speech Errors</h1>
   <p class="subtitle">Human Speech</p>
 
 <div class="quarto-title-authors">
@@ -363,272 +363,34 @@ Martin Corley
     </div>
 </div>
 
-  <p class="date">2024-01-15</p>
+  <p class="date">2024-01-17</p>
 </section>
-<section>
-<section id="welcome" class="title-slide slide level1 center" data-background-image="img/man.png" data-background-position="bottom 10px right 10px" data-background-size="30%" data-background-color="#00557f">
-<h1>Welcome</h1>
-
-</section>
-<section id="why-human-speech" class="slide level2">
-<h2>Why Human Speech?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="r-stack">
-<p><img data-src="img/apple_orange.jpg" class="fragment fade-out" style="width:50.0%" data-fragment-index="1"></p>
-<p><img data-src="img/orange_apple.jpg" class="fragment" style="width:50.0%" data-fragment-index="1"></p>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="r-stack">
-<p><img data-src="img/light-bulb.jpg" class="fragment fade-out" data-fragment-index="1"></p>
-<p><img data-src="img/light-bulb2.jpg" class="fragment" data-fragment-index="1"></p>
-</div>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>physical exchange</p>
-</div><div class="column" style="width:50%;">
-<p>spoken exchange</p>
-</div>
-</div>
-<!-- spacer -->
-<p>&nbsp; <!-- end spacer --></p>
-<div class="fragment" data-fragment-index="2">
-<ul>
-<li>speech is the ‘ultimate app’ for human cognition</li>
-</ul>
-</div>
-</section>
-<section id="why-human-speech-1" class="slide level2">
-<h2>Why Human Speech?</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 71.4%;justify-content: center;">
-<iframe data-external="1" src="https://www.youtube.com/embed/PWGeUztTkRA" width="700" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-<div class="fragment">
-<ul>
-<li>speech is part of a complex multimodal system</li>
-</ul>
-</div>
-<div class="attribution">
-<p>Mark Mitton <a href="https://youtu.be/PWGeUztTkRA">youtu.be/PWGeUztTkRA</a></p>
-</div>
-</section>
-<section class="slide level2">
-
-<iframe data-external="1" src="https://www.youtube.com/embed/cW7oBD0UmMU" width="100%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<div class="attribution">
-<p><span class="citation" data-cites="bosker.peeters_21">Bosker &amp; Peeters (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></p>
-</div>
-<aside class="notes">
-<p>the word we are looking for here is <strong>planto</strong></p>
-<ul>
-<li>in the first run-through, the beat is plánto</li>
-<li>in the second, it’s plantó</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="why-human-speech-2" class="slide level2">
-<h2>Why Human Speech?</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 71.4%;justify-content: center;">
-<iframe data-external="1" src="https://www.youtube.com/embed/p1TubkzxPFY?start=76" width="700" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-</div>
-</div>
-<div class="attribution">
-<p>British Pathé <a href="https://youtu.be/p1TubkzxPFY">youtu.be/p1TubkzxPFY</a></p>
-</div>
-<div class="fragment">
-<ul>
-<li>speech breaks down in extraordinary ways</li>
-</ul>
-</div>
-</section>
-<section id="why-human-speech-3" class="slide level2">
-<h2>Why Human Speech?</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 71.4%;justify-content: center;">
-<iframe data-external="1" src="https://www.youtube.com/embed/OYot5-WuAjE" width="700" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-<ul>
-<li>we can easily understand distorted speech</li>
-</ul>
-<div class="attribution">
-<p>transformingArt <a href="https://youtu.be/OYot5-WuAjE">youtu.be/OYot5-WuAjE</a></p>
-</div>
-<aside class="notes">
-<p>recording of Robert Browning made on the Edison Talking Machine on <strong>May 6th 1889</strong></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="about-the-course" class="slide level2">
-<h2>About the Course</h2>
-<ul>
-<li>still under construction</li>
-</ul>
-<div class="myblock">
-<p>what can the aspects of speech which <em>aren’t part of the verbal message</em> tell us about how speech works?</p>
-</div>
-<ul>
-<li><p>timing, errors</p></li>
-<li><p>gestures, facial expressions</p></li>
-<li><p>disfluency, stuttering</p></li>
-</ul>
-</section>
-<section id="shape-of-the-course" class="slide level2">
-<h2>Shape of the Course</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ol type="1">
-<li>The Speech Machine</li>
-<li>Producing Words</li>
-<li>Disfluency</li>
-<li>Stuttering</li>
-<li>Inner Speech</li>
-</ol>
-</div><div class="column" style="width:50%;">
-<ol start="6" type="1">
-<li>Audition</li>
-<li>Perceiving Words</li>
-<li>Understanding Utterances</li>
-<li>Pragmatics, Prosody</li>
-<li>Written Speech</li>
-</ol>
-</div>
-</div>
-</section>
-<section id="shape-of-the-course-1" class="slide level2">
-<h2>Shape of the Course</h2>
-<p><strong>lectures</strong></p>
-<ul>
-<li>include references</li>
-</ul>
-<p><strong>tutorials</strong></p>
-<ul>
-<li>useful to bring a laptop if poss</li>
-</ul>
-<p><strong>assessments</strong></p>
-<ul>
-<li>released Feb 1, Feb 29</li>
-<li>due Feb 22, Apr 11</li>
-</ul>
-</section>
-<section id="about-these-slides" class="slide level2">
-<h2>About These Slides</h2>
-<ul>
-<li><p>best read online</p></li>
-<li><p>lots of videos, and other interactive parts</p></li>
-<li><p>slides numbered for easy note-taking</p></li>
-<li><p>instructions for producing pdfs on Learn</p></li>
-<li><p>references/attributions at the right →</p></li>
-</ul>
-<div class="attribution">
-<p><span class="citation" data-cites="corley_13">Corley (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></p>
-</div>
-</section></section>
-<section>
-<section id="the-machinery-of-speech" class="title-slide slide level1 center" data-background-image="img/gears.png" data-background-position="bottom 10px right 10px" data-background-size="30%" data-background-color="#00557f">
-<h1>The Machinery of Speech</h1>
-
-</section>
-<section id="the-vocal-tract" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">The Vocal Tract</h2>
-
-<img data-src="img/vocaltract.png" data-id="f1" class="r-stretch quarto-figure-center"><aside class="notes">
-<ul>
-<li><p>series of cavities in the body that are interconnected</p></li>
-<li><p><strong>lungs</strong> are “power source” for (most) speech</p>
-<ul>
-<li>one sign of drowning is not being able to talk</li>
-<li>driven by diaphragm</li>
-</ul></li>
-<li><p><strong>trachea</strong></p>
-<ul>
-<li>lungs join mouth and nose</li>
-<li>also breathing in</li>
-<li>food gets diverted to esophagus by epiglottis</li>
-</ul></li>
-<li><p><strong>larynx</strong> buzzes (not always, e.g., hissing)</p>
-<ul>
-<li>air always passes through</li>
-</ul></li>
-<li><p><strong>mouth and nose</strong> filter, amplify, change speech sounds</p>
-<ul>
-<li>end of process at lips (and nostrils)</li>
-</ul></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="the-vocal-tract-1" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">The Vocal Tract</h2>
+<section id="malapropisms" class="slide level2">
+<h2>Malapropisms</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
-<p><img data-src="img/vocaltract2.png" data-id="f1"></p>
-</div><div class="column" style="width:60%;">
-<ul>
-<li><p>articulatory</p></li>
-<li><p><span style="color: green;">resonatory</span></p></li>
-<li><p><span style="color: purple;">phonatory (laryngeal)</span></p></li>
-<li><p><span class="fragment semi-fade-out" style="color: red;">respiratory</span></p></li>
-</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/mrs_malaprop.webp" style="width:80.0%"></p>
+<figcaption>Mrs John Drew as Mrs Malaprop</figcaption>
+</figure>
 </div>
+</div><div class="column" style="width:60%;">
+<blockquote>
+<p>the pineapple of politeness</p>
+<p>she’s as headstrong as an allegory on the banks of the Nile</p>
+</blockquote>
+<p>Sheridan, <em>The Rivals</em>, 1775</p>
+</div>
+</div>
+<div class="attribution">
+<p><a href="https://www.thoughtco.com/mrs-malaprop-and-origin-of-malapropisms-3973512">thoughtco.com</a></p>
 </div>
 <aside class="notes">
 <ul>
-<li>not going to say much about the respiratory system</li>
+<li><p>the picture comes from 1895</p></li>
+<li><p>lots of modern-day malapropisms (like “infer”)</p></li>
+<li><p>usually used in science just to mean substituting a word</p></li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -642,367 +404,257 @@ Martin Corley
           display:block!important;
       }</style></aside>
 </section>
-<section id="larynx" class="slide level2">
-<h2>Larynx</h2>
-<ul>
-<li>complicated assembly of cartilage, muscle, and bone</li>
-</ul>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 71.4%;justify-content: center;">
-<iframe data-external="1" src="https://www.youtube.com/embed/3-JmwVb2p0o?start=38" width="700" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-<div class="attribution">
-<p>Bethea Medical <a href="https://youtu.be/3-JmwVb2p0o">youtu.be/3-JmwVb2p0o</a></p>
-</div>
-</section>
-<section id="resonatory-system" class="slide level2">
-<h2>Resonatory System</h2>
+<section id="malapropisms-1" class="slide level2" data-visibility="uncounted">
+<h2>Malapropisms</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<div class="r-stack">
-<p><img data-src="img/ana/anatomy.png" class="fragment fade-out" data-fragment-index="1"></p>
-<p><img data-src="img/ana/anatomy_nasal.png" class="fragment fade-in-then-out" data-fragment-index="1"></p>
-<p><img data-src="img/ana/anatomy_oral.png" class="fragment fade-in-then-out" data-fragment-index="2"></p>
-<p><img data-src="img/ana/anatomy_pharynx.png" class="fragment fade-in-then-out" data-fragment-index="3"></p>
-<p><img data-src="img/ana/anatomy_epiglottis.png" class="fragment fade-in-then-out" data-fragment-index="4"></p>
-<p><img data-src="img/ana/anatomy_hp.png" class="fragment fade-in-then-out" data-fragment-index="5"></p>
-<p><img data-src="img/ana/anatomy_sp.png" class="fragment fade-in-then-out" data-fragment-index="6"></p>
-<p><img data-src="img/ana/anatomy_uvula.png" class="fragment fade-in-then-out" data-fragment-index="7"></p>
-<p><img data-src="img/ana/anatomy_lips.png" class="fragment fade-in-then-out" data-fragment-index="8"></p>
-<p><img data-src="img/ana/anatomy_tongue.png" class="fragment fade-in-then-out" data-fragment-index="9"></p>
-</div>
-</div><div class="column" style="width:50%;">
-<ul>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="1">nasal cavity</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="5">hard palate</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="6">soft palate (velum)</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="2">oral cavity</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="7">uvula</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="8">lips</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="9">tongue</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="3">pharynx</span></p></li>
-<li><p><span class="fragment highlight-current-red" data-fragment-index="4">epiglottis</span></p></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="how-we-speak-vowels" class="slide level2 nostretch">
-<h2>How We Speak (Vowels)</h2>
+<div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/bottles.jpg" style="width:75.0%"></p>
+<p><img data-src="img/mrs_malaprop.webp" style="width:80.0%"></p>
+<figcaption>Mrs John Drew as Mrs Malaprop</figcaption>
 </figure>
 </div>
-<ul>
-<li>more airspace → deeper sound</li>
-</ul>
-<div class="attribution">
-<p><a href="https://vecteezy.com">vecteezy.com</a></p>
-</div>
-</section>
-<section id="harmonics" class="slide level2">
-<h2>Harmonics</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="img/vocal_fold.jpg"></p>
-</div>
-<div class="quarto-layout-panel quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img data-src="img/aaaa.png"></p>
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img data-src="img/aaaa_spec.png" class="fragment"></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="formants" class="slide level2">
-<h2>Formants</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
-<p><img data-src="img/formantsP.svg"></p>
-</div>
-<div id="middle" class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<ul>
-<li><p>F0: pitch you hear</p></li>
-<li><p>F1,2: quality of vowel</p></li>
-</ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<!-- spacer -->
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
-<p>&nbsp; <!-- end spacer --></p>
-</div>
-</div>
-</div>
-</section>
-<section id="vowel-sounds" class="slide level2">
-<h2>Vowel Sounds</h2>
-
-<img data-src="img/vowel_spec.jpg" class="r-stretch quarto-figure-center"><div class="attribution">
-<p><a href="https://corpus.eduhk.hk/english_pronunciation/index.php/2-2-formants-of-vowels/">corpus.eduhk.hk</a></p>
-</div>
-</section>
-<section id="formants-1" class="slide level2">
-<h2>Formants</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
-<p><img data-src="img/formantsP.svg"></p>
-</div>
-<div id="middle" class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<ul>
-<li><p>F0: pitch you hear</p></li>
-<li><p>F1,2: quality of vowel</p></li>
-</ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<p><img data-src="img/ana/formants.svg"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="vowel-production-mri" class="slide level2">
-<h2>Vowel Production (MRI)</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 71.4%;justify-content: center;">
-<iframe data-external="1" src="https://www.youtube.com/embed/jaIquq_4560" width="800" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
+</div><div class="column" style="width:60%;">
+<blockquote>
+<p>the <span class="accent">pinnacle</span> of politeness</p>
+<p>she’s as headstrong as an <span class="accent">alligator</span> on the banks of the Nile</p>
+</blockquote>
+<p>Sheridan, <em>The Rivals</em>, 1775</p>
 </div>
 </div>
 <div class="attribution">
-<p>ProfEdwardsSU <a href="https://youtu.be/jaIquq_4560">youtu.be/jaIquq_4560</a></p>
+<p><a href="https://www.thoughtco.com/mrs-malaprop-and-origin-of-malapropisms-3973512">thoughtco.com</a></p>
 </div>
 </section>
-<section class="slide level2">
-
-
-<img data-src="img/vowel_shapes.jpg" class="r-stretch"><div class="attribution">
-<p><a href="https://voicescienceworks.org">voicescienceworks.org</a></p>
-</div>
-</section>
-<section id="consonant-production" class="slide level2 smaller">
-<h2>Consonant Production</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li><p>tongue</p></li>
-<li><p>upper lip</p></li>
-<li><p>lower lip</p></li>
-<li><p>upper teeth</p></li>
-<li><p><span class="fragment highlight-red" data-fragment-index="1">aveolar ridge</span></p></li>
-<li><p>hard palate</p></li>
-<li><p>soft palate (velum)</p></li>
-<li><p>uvula</p></li>
-<li><p>pharyngeal wall</p></li>
-<li><p>glottis (space between vocal cords)</p></li>
-</ul>
-</div><div class="column" style="width:40%;">
-<div class="r-stack">
-<p><img data-src="img/ana/anatomy_flip.png" class="fragment fade-out" data-fragment-index="1"></p>
-<p><img data-src="img/ana/anatomy_alveolar.png" class="fragment" data-fragment-index="1"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="consonant-production-1" class="slide level2">
-<h2>Consonant Production</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 71.4%;justify-content: center;">
-<iframe data-external="1" src="https://www.youtube.com/embed/IdYu9ClSCYE" width="800" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-<div class="attribution">
-<p>Corley <a href="https://youtu.be/IdYu9ClSCYE">youtu.be/IdYu9ClSCYE</a></p>
-</div>
-</section>
-<section id="consonant-production-2" class="slide level2">
-<h2>Consonant Production</h2>
+<section id="word-y-errors" class="slide level2 smaller">
+<h2>Word-y Errors</h2>
 <table>
 <colgroup>
-<col style="width: 24%">
-<col style="width: 56%">
-<col style="width: 20%">
+<col style="width: 21%">
+<col style="width: 47%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sound</th>
-<th>Production</th>
-<th>Name</th>
+<th>Type</th>
+<th>Utterance</th>
+<th>Target</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>/p/</td>
-<td><span class="fragment highlight-current-red" data-fragment-index="2">release</span> <span class="fragment highlight-current-red" data-fragment-index="1">lips</span></td>
-<td>bilabial stop</td>
+<td>word blend</td>
+<td>The <span class="accent">chung</span> of today</td>
+<td>children + young</td>
 </tr>
 <tr class="even">
-<td>/t/</td>
-<td><span class="fragment highlight-current-red" data-fragment-index="2">release</span> tongue from <span class="fragment highlight-current-red" data-fragment-index="1">alveolar ridge</span></td>
-<td>aveolar stop</td>
+<td>word exchange</td>
+<td>Guess whose <span class="accent">mind</span> came to <span class="accent">name</span>?</td>
+<td>name came to mind</td>
 </tr>
 <tr class="odd">
-<td>/s/</td>
-<td><span class="fragment highlight-current-red" data-fragment-index="2">create friction</span> at <span class="fragment highlight-current-red" data-fragment-index="1">alveolar ridge</span></td>
-<td>alveolar fricative</td>
+<td>morpheme exchange</td>
+<td>I <span class="accent">random</span>ed some <span class="accent">sampl</span>y</td>
+<td>sampled some randomly</td>
+</tr>
+<tr class="even">
+<td>word substitution</td>
+<td>Get me a <span class="accent">fork</span></td>
+<td>spoon</td>
+</tr>
+<tr class="odd">
+<td>phrase blend</td>
+<td>Miss you <span class="accent">a very much</span></td>
+<td>very much + a great deal</td>
 </tr>
 </tbody>
 </table>
-<ul>
-<li>sounds defined by <span class="fragment" data-fragment-index="1"><span class="fragment highlight-current-red" data-fragment-index="1">place</span></span><span class="fragment" data-fragment-index="2">, <span class="fragment highlight-current-red" data-fragment-index="2">manner</span></span><span class="fragment" data-fragment-index="3">, and <span style="color: red;">voicing →</span></span></li>
-</ul>
+<div class="attribution">
+<p><span class="citation" data-cites="harley_14">Harley (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p>
+</div>
 </section>
-<section id="voiced-consonants" class="slide level2">
-<h2>Voiced Consonants</h2>
+<section id="what-do-word-errors-tell-us" class="slide level2">
+<h2>What do Word Errors Tell Us?</h2>
+<div class="myblock">
+<p>a weekend for <em>maniacs</em>—a maniac for <em>weekends</em></p>
+<div class="atrightcite">
+<p><span class="citation" data-cites="fromkin_71">(<a href="#/references" role="doc-biblioref" onclick="">Fromkin, 1971</a>)</span></p>
+</div>
+</div>
+<div>
 <ul>
-<li>vibration from the vocal cords <em>during</em> fricative consonants or <em>immediately following</em> stops (‘releases’)</li>
+<li class="fragment">content words are exchanged</li>
+<li class="fragment">stress is left unchanged</li>
+<li class="fragment">plural <span class="accent">-s</span> is stranded</li>
+<li class="fragment">plural <span class="accent">-z</span> becomes <span class="accent">-s</span></li>
 </ul>
-<table>
-<thead>
-<tr class="header">
-<th>unvoiced</th>
-<th>voiced</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>/p/</td>
-<td>/b/</td>
-</tr>
-<tr class="even">
-<td>/t/</td>
-<td>/d/</td>
-</tr>
-<tr class="odd">
-<td>/s/</td>
-<td>/z/</td>
-</tr>
-</tbody>
-</table>
+</div>
 </section>
-<section id="voicing-british-english" class="slide level2">
-<h2>Voicing (British English)</h2>
+<section id="what-do-word-errors-tell-us-1" class="slide level2">
+<h2>What do Word Errors Tell Us?</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h4 id="top">top</h4>
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="img/top107.png" style="width:90.0%"></p>
-</figure>
-</div>
-<ul>
-<li>107ms VOT</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<h4 id="dog">dog</h4>
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="img/dog019.png" style="width:90.0%"></p>
-</figure>
-</div>
-<ul>
-<li>19ms VOT</li>
-</ul>
-</div>
-</div>
-<!--
-to add: something on phonemes;  something on the three defining aspects of consonant articulation -> voicing -> s-curves from my data(?), -> "next time:  how do we drive all this machinery to make words and sentences?"
-
-SEDIVY BOOK
--->
-</section>
-<section id="continuous-differences-categorical-perception" class="slide level2">
-<h2><span class="r-fit-text">Continuous Differences, Categorical Perception</span></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="uniblue">gift-kift</span> <audio controls="" src="assets/continuum2.wav"></audio></p>
-</div><div class="column" style="width:50%;">
-<p><span class="accent">giss-kiss</span> <audio controls="" src="assets/continuum.wav"></audio></p>
-</div>
-</div>
-<div class="fragment">
+<div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/gano.svg"></p>
+<p><img data-src="img/weekend0.svg" class="fragment fade-out" data-fragment-index="1"></p>
 </figure>
 </div>
-<div class="attribution">
-<p>based on <span class="citation" data-cites="ganong_80">Ganong (<a href="#/references" role="doc-biblioref" onclick="">1980</a>)</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/weekend1.svg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/weekend2.svg" class="fragment fade-in-then-out" data-fragment="index=2"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/weekend2b.svg" class="fragment fade-in-then-out" data-fragment="index=3"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/weekend3b.svg" class="fragment fade-in" data-fragment="index=4"></p>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><p>errors constrain shape of speech production system</p></li>
+<li><p>leads to a series of models</p></li>
+</ul>
+<div class="atrightcite">
+<p><span class="citation" data-cites="garrett_80">(e.g., <a href="#/references" role="doc-biblioref" onclick="">Garrett, 1980</a>)</span></p>
+</div>
 </div>
 </div>
 </section>
-<section id="basic-categories-of-speech" class="slide level2">
-<h2>Basic Categories of Speech</h2>
+<section id="spoonerisms" class="slide level2">
+<h2>Spoonerisms</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<blockquote>
+<p>You have hissed my mystery lectures; you have tasted a whole worm; you must leave at once by the town drain</p>
+</blockquote>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/spooner.jpg"></p>
+<figcaption>Rev Dr W. A. Spooner, 1844–1930</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<aside class="notes">
 <ul>
-<li><strong>phonemes</strong> are the ‘smallest units of sound’ which differentiate words</li>
+<li><p>became a priest; and warden of New College Oxford (1903-1924).</p></li>
+<li><p>apparently more likely to have made action slips than to have produced Spoonerisms.</p></li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="attribution">
+<p><a href="https://interestingliterature.com/2017/09/reverend-spooner-father-of-the-spoonerism/">interestingliterature.com</a></p>
+</div>
+</section>
+<section id="sound-y-errors" class="slide level2 smaller">
+<h2>Sound-y Errors</h2>
 <table>
+<colgroup>
+<col style="width: 21%">
+<col style="width: 47%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>pair</th>
-<th>difference</th>
+<th>Type</th>
+<th>Utterance</th>
+<th>Target</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span class="accent">k</span>ilt–<span class="accent">g</span>ilt</td>
-<td>/k/–/g/</td>
+<td>phoneme anticipation</td>
+<td>The <span class="accent">m</span>irst of May</td>
+<td>first</td>
 </tr>
 <tr class="even">
-<td><span class="accent">t</span>in–<span class="accent">p</span>in</td>
-<td>/t/–/p/</td>
+<td>phoneme perseveration</td>
+<td>God rest <span class="accent">r</span>e merry gentlemen</td>
+<td>ye</td>
 </tr>
 <tr class="odd">
-<td>sur<span class="accent">f</span>–ser<span class="accent">v</span></td>
-<td>/f/–/v/</td>
+<td>phoneme exchange</td>
+<td>Do you <span class="accent">r</span>eel <span class="accent">f</span>eally bad?</td>
+<td>feel really</td>
 </tr>
 <tr class="even">
-<td>mi<span class="accent">ss</span>–my<span class="accent">th</span></td>
-<td>/s/–/θ/</td>
+<td>affix deletion</td>
+<td>The chimney catch fire</td>
+<td>catch<span class="accent">es</span></td>
 </tr>
 <tr class="odd">
-<td>sh<span class="accent">i</span>p–sh<span class="accent">ee</span>p</td>
-<td>/ı/–/i:/</td>
+<td>phoneme deletion</td>
+<td>Backgound lighting</td>
+<td>backg<span class="accent">r</span>ound</td>
 </tr>
 </tbody>
 </table>
+<div class="attribution">
+<p><span class="citation" data-cites="harley_14">Harley (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p>
+</div>
+</section>
+<section id="section" class="slide level2 center">
+<h2></h2>
+<div style="text-align: center; font-size: 300%">
+<p><span class="accent">CW</span></p>
+</div>
+</section>
+<section id="jeremy-hunt-the-culture-secretary" class="slide level2">
+<h2><span class="r-fit-text">Jeremy Hunt, the Culture Secretary</span></h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<iframe data-external="1" src="https://www.youtube.com/embed/YS5mVoqJpUk" width="700" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<p>BBC Radio 4, 6 December 2010</p>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="attribution">
+<p><a href="https://youtu.be/YS5mVoqJpUk">youtu.be/YS5mVoqJpUk</a></p>
+</div>
 <aside class="notes">
-<p>maybe say that phonemes aren’t invariant; allophones</p>
+<ul>
+<li><p>James Naughtie</p></li>
+<li><p>Jeremy Hunt is now Chancellor of the Exchequer</p></li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1015,55 +667,45 @@ SEDIVY BOOK
           display:block!important;
       }</style></aside>
 </section>
-<section id="running-the-machine" class="slide level2">
-<h2>Running the Machine</h2>
-<div class="r-stack">
-<p><img data-src="img/speak1.png" class="fragment fade-out" data-fragment-index="1"></p>
-<p><img data-src="img/speak2.png" class="fragment" data-fragment-index="1"></p>
-</div>
-</section>
-<section class="slide level2">
-
-<iframe data-external="1" src="https://www.youtube.com/embed/OCvJiqKZbz4?start=8" width="100%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<div class="attribution">
-<p>Beckmann Institute <a href="https://youtu.de/OCvJiqKZbz4">youtu.be/OCvJiqKZbz4</a></p>
-</div>
+<section id="lexical-bias" class="slide level2">
+<h2>Lexical Bias</h2>
+<p>etc.</p>
 </section>
 <section id="references" class="slide level2 smaller appendix scrollable">
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
-<div id="ref-bosker.peeters_21" class="csl-entry" role="listitem">
-Bosker, H. R., &amp; Peeters, D. (2021). Beat gestures influence which speech sounds you hear. <em>Proceedings of the Royal Society B: Biological Sciences</em>, <em>288</em>(1943), 20202419. <a href="https://doi.org/fsjx">https://doi.org/fsjx</a>
+<div id="ref-fromkin_71" class="csl-entry" role="listitem">
+Fromkin, V. A. (1971). The <span>Non-Anomalous Nature</span> of <span>Anomalous Utterances</span>. <em>Language</em>, <em>47</em>(1), 27–52. <a href="https://doi.org/dwqwf7">https://doi.org/dwqwf7</a>
 </div>
-<div id="ref-corley_13" class="csl-entry" role="listitem">
-Corley, M. (2013). Disfluencies: <span>Comprehension</span> processes. In H. Pashler (Ed.), <em>Encyclopedia of the <span>Mind</span></em> (pp. 252–253). <span>SAGE</span>.
+<div id="ref-garrett_80" class="csl-entry" role="listitem">
+Garrett, M. (1980). Levels of processing in sentence production. In B. Butterworth (Ed.), <em>Language production vol. 1: Speech and talk</em> (pp. 177–220). Academic Press.
 </div>
-<div id="ref-ganong_80" class="csl-entry" role="listitem">
-Ganong, W. F. (1980). Phonetic categorization in auditory word perception. <em>Journal of Experimental Psychology: Human Perception and Performance</em>, <em>6</em>(1), 110–125. <a href="https://doi.org/chjqhb">https://doi.org/chjqhb</a>
+<div id="ref-harley_14" class="csl-entry" role="listitem">
+Harley, T. A. (2014). <em>The psychology of language: From data to theory</em> (4. ed.). Psychology press.
 </div>
 </div>
 <div class="footer footer-default">
 
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="lecture01_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="lecture02_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="lecture01_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="lecture01_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="lecture01_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="lecture02_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
