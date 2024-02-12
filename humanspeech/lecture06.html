@@ -30,7 +30,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="lecture06_files/libs/revealjs/dist/theme/quarto.css">
   <link href="lecture06_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="lecture06_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -479,9 +499,89 @@ Martin Corley
 <section id="stereo" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Stereo</h2>
 
-<img data-src="img/pathway_stereo.svg" class="quarto-figure quarto-figure-center r-stretch" data-id="olive"><ul>
-<li>some stuff about stereo</li>
+<img data-src="img/pathway_stereo.svg" class="quarto-figure quarto-figure-center r-stretch" data-id="olive"></section>
+<section id="auditory-cortex" class="slide level2">
+<h2>Auditory Cortex</h2>
+
+<img data-src="img/acortex.svg" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<ul>
+<li><p>neurons are sparser in secondary auditory cortex</p></li>
+<li><p>sensitive to a broader range of frequencies</p></li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="recognising-phonemes" class="slide level2">
+<h2>Recognising Phonemes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/miracle.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><p>neural nets</p></li>
+<li><p>wavelets</p></li>
+</ul>
+<div class="atrightcite">
+<p><span class="citation" data-cites="farooq.datta_03">(e.g., <a href="#/references" role="doc-biblioref" onclick="">Farooq &amp; Datta, 2003</a>)</span></p>
+</div>
+<ul>
+<li>frequency-phase pattern</li>
+</ul>
+<div class="atrightcite">
+<p><span class="citation" data-cites="wang.etal_12">(e.g., <a href="#/references" role="doc-biblioref" onclick="">Wang et al., 2012</a>)</span></p>
+</div>
+<ul>
+<li>etc.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="the-motor-theory-of-speech-perception" class="slide level2">
+<h2><span class="r-fit-text">The Motor Theory of Speech Perception</span></h2>
+
+<img data-src="img/libermancites.png" class="quarto-figure quarto-figure-center r-stretch"><div class="attribution">
+<p><span class="citation" data-cites="stasenko.etal_13">Stasenko et al. (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></p>
+</div>
+<ul>
+<li>citations of <span class="citation" data-cites="liberman.etal_67">Liberman et al. (<a href="#/references" role="doc-biblioref" onclick="">1967</a>)</span></li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p><span class="citation" data-cites="liberman.etal_67">Liberman et al. (<a href="#/references" role="doc-biblioref" onclick="">1967</a>)</span>; <span class="citation" data-cites="liberman.mattingly_85">Liberman &amp; Mattingly (<a href="#/references" role="doc-biblioref" onclick="">1985</a>)</span></p>
+</section>
+<section id="references" class="slide level2 smaller appendix scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-farooq.datta_03" class="csl-entry" role="listitem">
+Farooq, O., &amp; Datta, S. (2003). Phoneme recognition using wavelet based features. <em>Information Sciences</em>, <em>150</em>(1), 5–15. <a href="https://doi.org/brnkzm">https://doi.org/brnkzm</a>
+</div>
+<div id="ref-liberman.etal_67" class="csl-entry" role="listitem">
+Liberman, A. M., Cooper, F. S., Shankweiler, D. P., &amp; Studdert-Kennedy, M. (1967). Perception of the speech code. <em>Psychological Review</em>, <em>74</em>(6), 431–461. <a href="https://doi.org/dvfs2x">https://doi.org/dvfs2x</a>
+</div>
+<div id="ref-liberman.mattingly_85" class="csl-entry" role="listitem">
+Liberman, A. M., &amp; Mattingly, I. G. (1985). The motor theory of speech perception revised. <em>Cognition</em>, <em>21</em>(1), 1–36. <a href="https://doi.org/d79rrw">https://doi.org/d79rrw</a>
+</div>
+<div id="ref-stasenko.etal_13" class="csl-entry" role="listitem">
+Stasenko, A., Garcea, F. E., &amp; Mahon, B. Z. (2013). What happens to the motor theory of perception when the motor system is damaged? <em>Language and Cognition</em>, <em>5</em>(2-3), 225–238. <a href="https://doi.org/gn7gf7">https://doi.org/gn7gf7</a>
+</div>
+<div id="ref-wang.etal_12" class="csl-entry" role="listitem">
+Wang, R., Perreau-Guimaraes, M., Carvalhaes, C., &amp; Suppes, P. (2012). Using phase to recognize <span>English</span> phonemes and their distinctive features in the brain. <em>Proceedings of the National Academy of Sciences</em>, <em>109</em>(50), 20685–20690. <a href="https://doi.org/f4hhz6">https://doi.org/f4hhz6</a>
+</div>
+</div>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
