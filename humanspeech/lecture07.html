@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="lecture06_files/libs/clipboard/clipboard.min.js"></script>
-<script src="lecture06_files/libs/quarto-html/tabby.min.js"></script>
-<script src="lecture06_files/libs/quarto-html/popper.min.js"></script>
-<script src="lecture06_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="lecture06_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="lecture06_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="lecture06_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="lecture06_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="lecture07_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lecture07_files/libs/quarto-html/tabby.min.js"></script>
+<script src="lecture07_files/libs/quarto-html/popper.min.js"></script>
+<script src="lecture07_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="lecture07_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lecture07_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="lecture07_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="lecture07_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.550">
 
   <meta name="author" content="Martin Corley">
   <meta name="dcterms.date" content="2024-02-19">
-  <title>Hearing Speech</title>
+  <title>Recognising Words</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="lecture06_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="lecture06_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="lecture07_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="lecture07_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -51,12 +51,12 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="lecture06_files/libs/revealjs/dist/theme/quarto.css">
-  <link href="lecture06_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="lecture06_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="lecture06_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="lecture06_files/libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
-  <link href="lecture06_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="lecture07_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="lecture07_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="lecture07_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="lecture07_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="lecture07_files/libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
+  <link href="lecture07_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -348,7 +348,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="_theme/logo.svg" data-background-position="2% 2%" data-background-size="25%" class="quarto-title-block center">
-  <h1 class="title">Hearing Speech</h1>
+  <h1 class="title">Recognising Words</h1>
   <p class="subtitle">Human Speech</p>
 
 <div class="quarto-title-authors">
@@ -367,554 +367,87 @@ Martin Corley
 
   <p class="date">2024-02-19</p>
 </section>
-<section id="the-ear" class="slide level2">
-<h2>The Ear</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ear_diag.jpg" class="fragment fade-out quarto-figure quarto-figure-center" data-fragment-index="1"></p>
-</figure>
+<section id="three-stories-about-word-recognition" class="slide level2">
+<h2><span class="r-fit-text">Three Stories About Word Recognition</span></h2>
+<ol type="1">
+<li><strong>Cohort Theory</strong></li>
+</ol>
+<div class="atrightcite">
+<p><span class="citation" data-cites="marslen-wilson_84 marslen-wilson_87">(<a href="#/references" role="doc-biblioref" onclick="">Marslen-Wilson, 1984</a>; <a href="#/references" role="doc-biblioref" onclick="">Marslen-Wilson, 1987</a>)</span></p>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ear_diag_2.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" data-fragment-index="1"></p>
-</figure>
+<ol start="2" type="1">
+<li><strong>Interactive Theories</strong></li>
+</ol>
+<div class="atrightcite">
+<p><span class="citation" data-cites="mcclelland.elman_86">(<a href="#/references" role="doc-biblioref" onclick="">McClelland &amp; Elman, 1986</a>)</span></p>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ear_diag_3.jpg" class="fade-in-then-out fragment quarto-figure quarto-figure-center" data-fragment-index="2"></p>
-</figure>
+<ol start="3" type="1">
+<li><strong>Motor Theory</strong></li>
+</ol>
+<div class="atrightcite">
+<p><span class="citation" data-cites="liberman.etal_67 liberman.mattingly_85">(<a href="#/references" role="doc-biblioref" onclick="">Liberman et al., 1967</a>; <a href="#/references" role="doc-biblioref" onclick="">Liberman &amp; Mattingly, 1985</a>)</span></p>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ear_diag_4.jpg" class="fade-in-then-out fragment quarto-figure quarto-figure-center" data-fragment-index="3"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/ear_diag_5.jpg" class="fragment quarto-figure quarto-figure-center" data-fragment-index="4"></p>
-</figure>
-</div>
-</div>
-</div><div class="column" style="width:30%;">
-<ul>
-<li><span class="fragment highlight-current-red" data-fragment-index="1">pinna</span></li>
-<li><span class="fragment highlight-current-blue" data-fragment-index="1">concha</span></li>
-<li><span class="fragment highlight-current-red" data-fragment-index="2">tympanic membrane</span></li>
-<li><span class="fragment highlight-current-blue" data-fragment-index="2">ear canal</span></li>
-<li><span class="fragment highlight-current-red" data-fragment-index="3">ossicles</span></li>
-<li><span class="fragment highlight-blue" data-fragment-index="4">cochlea</span></li>
-</ul>
-</div>
-</div>
-<aside class="notes">
-<ul>
-<li><p>pinna helps with directional sound</p></li>
-<li><p>tympanic membrane is the eardrum</p></li>
-<li><p>you could easily fit the ossicles on a fingernail</p></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
-<section id="basilar-membrane" class="slide level2 nostretch">
-<h2>Basilar Membrane</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/basilar.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<ul>
-<li>vibrates in response to different frequencies</li>
-</ul>
-</section>
-<section id="sound-to-electricity-in-the-organ-of-corti" class="slide level2">
-<h2><span class="r-fit-text">Sound to Electricity in the Organ of Corti</span></h2>
+<section id="the-motor-theory-of-speech-perception" class="slide level2">
+<h2><span class="r-fit-text">The Motor Theory of Speech Perception</span></h2>
 
-<img data-src="img/corti.png" class="quarto-figure quarto-figure-center r-stretch"><ul>
-<li><p>basilar membrane moves tectorial membrane and hair cells</p></li>
-<li><p>stereocilia cause inner hair cells to produce electricity</p></li>
-</ul>
-<div class="fragment">
-<ul>
-<li><span class="accent">this is a simplification</span></li>
-</ul>
-</div>
-</section>
-<section id="auditory-pathway-1" class="slide level2">
-<h2>Auditory Pathway (1)</h2>
-
-<img data-src="img/auditory.png" class="quarto-figure quarto-figure-center r-stretch"><ul>
-<li><p>3,500 inner hair cells, 11,000 outer</p></li>
-<li><p>30,000 nerve fibres, <strong>tonotopically</strong> arranged by frequency</p></li>
-</ul>
-<aside class="notes">
-<ul>
-<li><p>each inner hair cell provides info to several nerve fibres</p></li>
-<li><p>fibres fire faster when basilar membrane vibrates more vigorously</p></li>
-<li><p>activity declines over time (we are particularly sensitive to sound <em>onsets</em>)</p></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="auditory-pathway-2" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Auditory Pathway (2)</h2>
-<div class="columns">
-<div class="column" style="width:62%;">
-<div class="r-stack">
-<p><img data-src="img/pathway.png" class="absolute" style="top: 120px; left: 20px; width: 500px; "></p>
-<p><img data-src="img/pathway_olive.png" class="absolute" style="top: 320px; left: 212px; width: 110px; " data-id="olive"></p>
-</div>
-</div><div class="column" style="width:38%;">
-<p><strong>neurons respond to</strong></p>
-<ul>
-<li><p>onsets</p></li>
-<li><p>offsets</p></li>
-<li><p>duration</p></li>
-<li><p>frequency (narrow)</p></li>
-<li><p>frequency (broad)</p></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="stereo" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Stereo</h2>
-
-<img data-src="img/pathway_stereo.svg" class="quarto-figure quarto-figure-center r-stretch" data-id="olive"></section>
-<section id="auditory-cortex" class="slide level2">
-<h2>Auditory Cortex</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/acortex.svg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column" style="width:30%;">
-<ul>
-<li>440–460 Hz</li>
-</ul>
-<audio controls="">
-  <source src="assets/440_460.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-<ul>
-<li>2440–2460 Hz</li>
-</ul>
-<audio controls="">
-  <source src="assets/2440_2460.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-</div>
-</div>
-<aside class="notes">
-<ul>
-<li><p>note logarithmic arrangement of frequencies</p>
-<ul>
-<li>we can hear smaller low-pitch differences</li>
-</ul></li>
-<li><p>neurons are sparser in secondary auditory cortex</p></li>
-<li><p>sensitive to a broader range of frequencies</p></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="recognising-speech" class="slide level2">
-<h2>Recognising Speech</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/miracle.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div><div class="column" style="width:30%;">
-<div class="myblock">
-<p>we are uniquely well adapted to recognise speech</p>
+<img data-src="img/libermancites.png" class="quarto-figure quarto-figure-center r-stretch"><div class="attribution">
+<p><span class="citation" data-cites="stasenko.etal_13">Stasenko et al. (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></p>
 </div>
 <ul>
-<li>tones<br>
-</li>
-</ul>
-<audio controls="">
-  <source src="assets/06audiotones.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-<ul>
-<li>speech<br>
-</li>
-</ul>
-<audio controls="">
-  <source src="assets/06phonemes.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-</div>
-</div>
-</section>
-<section id="tones-0.6s" class="slide level2">
-<h2>Tones (0.6s)</h2>
-
-<img data-src="img/06audiotones.png" class="quarto-figure quarto-figure-center r-stretch"><div class="attribution">
-<p><span class="citation" data-cites="liberman.etal_67">Liberman et al. (<a href="#/references" role="doc-biblioref" onclick="">1967</a>)</span></p>
-</div>
-</section>
-<section id="speech-0.6s" class="slide level2">
-<h2>Speech (0.6s)</h2>
-
-<img data-src="img/06phonemes.png" class="quarto-figure quarto-figure-center r-stretch"><div class="attribution">
-<p><span class="citation" data-cites="liberman.etal_67">Liberman et al. (<a href="#/references" role="doc-biblioref" onclick="">1967</a>)</span>; <span class="citation" data-cites="marslen-wilson_84">Marslen-Wilson (<a href="#/references" role="doc-biblioref" onclick="">1984</a>)</span></p>
-</div>
-<ul>
-<li><p>speech rates are typically 20 phonemes/sec or more</p></li>
-<li><p>takes about 200ms to recognise a word in context</p></li>
+<li>citations of <span class="citation" data-cites="liberman.etal_67">Liberman et al. (<a href="#/references" role="doc-biblioref" onclick="">1967</a>)</span></li>
 </ul>
 </section>
-<section id="rapid-speech" class="slide level2">
-<h2>Rapid Speech</h2>
-<div class="quarto-layout-panel" data-layout="[-1,5,-1]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 71.4%;justify-content: flex-start;">
-<iframe data-external="1" src="https://www.youtube.com/embed/FZ0PDJbRU5I?start=20" width="900" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-<div class="atrightcite">
-<p>supposedly fast Chinese speaker <a href="https://youtu.be/ePWKvg_SDVI">here</a></p>
-</div>
-<div class="attribution">
-<p>Guinness World Records <a href="https://youtu.be/FZ0PDJbRU5I">youtu.be/FZ0PDJbRU5I</a></p>
-</div>
-</section>
-<section id="i-scream-for-ice-cream" class="slide level2">
-<h2>I Scream for Ice Cream</h2>
-
-<img data-src="img/06both.png" class="quarto-figure quarto-figure-center r-stretch" data-fig-width="80%"><ul>
-<li><p>no clear signal for phoneme <em>or word</em> boundaries</p></li>
-<li><p>how do we segment speech?</p></li>
-</ul>
-</section>
-<section id="segmenting-speech" class="slide level2">
-<h2>Segmenting Speech</h2>
-<div class="columns">
-<div class="column" style="width:48%;">
-<h4 id="issues">issues</h4>
-<ul>
-<li>phonemes vary</li>
-</ul>
-<div class="atrightcite">
-<p><strong>b</strong>all, <strong>b</strong>ill, a<strong>b</strong>le, ro<strong>b</strong></p>
-</div>
-<ul>
-<li>speed changes phonemes</li>
-</ul>
-<div class="atrightcite">
-<p><span class="citation" data-cites="miller_81">(<a href="#/references" role="doc-biblioref" onclick="">Miller, 1981</a>)</span></p>
-</div>
-<ul>
-<li>coarticulation</li>
-</ul>
-<div class="atrightcite">
-<p>p<strong>i</strong>p, s<strong>i</strong>n</p>
-</div>
-</div><div class="column" style="width:4%;">
-<p>&nbsp;</p>
-</div><div class="column" style="width:48%;">
-<h4 id="cues">cues</h4>
-<ul>
-<li>longer onset syllables</li>
-</ul>
-<div class="atrightcite">
-<p><span class="citation" data-cites="gow.gordon_95">(<a href="#/references" role="doc-biblioref" onclick="">Gow Jr. &amp; Gordon, 1995</a>)</span></p>
-</div>
-<ul>
-<li>longer final syllables</li>
-</ul>
-<div class="atrightcite">
-<p><span class="citation" data-cites="beckman.edwards_90">(<a href="#/references" role="doc-biblioref" onclick="">Beckman &amp; Edwards, 1990</a>)</span></p>
-</div>
-<ul>
-<li>aspiration</li>
-</ul>
-<div class="atrightcite">
-<p><span class="citation" data-cites="trager.bloch_41">(<a href="#/references" role="doc-biblioref" onclick="">Trager &amp; Bloch, 1941</a>)</span></p>
-</div>
-</div><aside class="notes">
-<ul>
-<li>aspiration for English onsets</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</div>
-</section>
-<section id="more-cues" class="slide level2">
-<h2>More Cues</h2>
-<div class="attribution">
-<p><span class="citation" data-cites="norris.etal_97">Norris et al. (<a href="#/references" role="doc-biblioref" onclick="">1997</a>)</span></p>
-</div>
-<ul>
-<li>easier to segment streams into (possible) words</li>
-</ul>
-<div class="quarto-layout-panel" data-layout="[[-1,2,-1,2,-1],[-1,2,-1,2,-1],[-1,2,-1,2,-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 28.6%;justify-content: flex-start;">
-<p><span class="accent fragment" data-fragment-index="1">impossible</span></p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 28.6%;justify-content: flex-start;">
-<p><span class="accent fragment" data-fragment-index="1">possible</span></p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 28.6%;justify-content: flex-start;">
-<p>f<strong>apple</strong></p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 28.6%;justify-content: flex-start;">
-<p>vuff<strong>apple</strong></p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 28.6%;justify-content: flex-start;">
-<p><strong>powder</strong>m</p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 28.6%;justify-content: flex-start;">
-<p><strong>powder</strong>mot</p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-<div class="fragment" data-fragment-index="2">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/norris_2.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div>
-<aside class="notes">
-<ul>
-<li>also models in paper</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="more-cues-1" class="slide level2">
-<h2>More Cues</h2>
-<ul>
-<li>(in English) strong syllables start words</li>
-</ul>
-<div class="columns">
-<div class="column" style="width:46%;">
-<div class="myblock">
-<p>be alert! Your country needs lerts!</p>
-</div>
-</div><div class="column" style="width:8%;">
-<p>&nbsp;</p>
-</div><div class="column" style="width:46%;">
-<div class="myblock" style="background: lightgray !important;">
-<p>be a pal! Your country needs apals!</p>
-</div>
-</div>
-</div>
-<div class="attribution">
-<p><span class="citation" data-cites="cutler.butterfield_92">Cutler &amp; Butterfield (<a href="#/references" role="doc-biblioref" onclick="">1992</a>)</span>; see also <span class="citation" data-cites="osses.etal_23">Osses et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span></p>
-</div>
-<div class="fragment">
-<ul>
-<li>(low audibility) phrases like <span class="accent">con<u>duct</u> a<u>scents</u> up<u>hill</u></span></li>
-</ul>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li><p>“the doctor sends the bill”</p></li>
-<li><p>“a duck descends some pill”</p></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/duck_descends.webp" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="segmentation-is-monolingual" class="slide level2">
-<h2>Segmentation is Monolingual</h2>
-<div class="attribution">
-<p><span class="citation" data-cites="cutler.etal_92">Cutler et al. (<a href="#/references" role="doc-biblioref" onclick="">1992</a>)</span></p>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>🇫🇷 clear syllables</p>
-<ul>
-<li><p><em>ba-lance</em></p></li>
-<li><p><em>bal-con</em></p></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p>🇬🇧 weaker syllables</p>
-<ul>
-<li><p><em>balance</em></p></li>
-<li><p><em>balcony</em></p></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="task-detect-ba-or-bal" class="slide level2">
-<h2>Task: Detect <em>ba</em> or <em>bal</em></h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/segfreng2.png" class="fragment fade-out quarto-figure quarto-figure-center" style="width:80.0%" data-fragment-index="1"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/segfreng1.png" class="fragment quarto-figure quarto-figure-center" style="width:80.0%" data-fragment-index="1"></p>
-</figure>
-</div>
-</div>
-<div class="attribution">
-<p><span class="citation" data-cites="cutler.etal_92">Cutler et al. (<a href="#/references" role="doc-biblioref" onclick="">1992</a>)</span></p>
-</div>
-</section>
-<section id="neuroscience-of-segmentation" class="slide level2">
-<h2>Neuroscience of Segmentation</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<ul>
-<li><p>progress only just being made</p></li>
-<li><p>shows hierarchical processing from sounds to phonemes to words</p></li>
-<li><p>constrained by expectations</p>
-<ul>
-<li><p>phoneme surprisal</p></li>
-<li><p>cohort entropy</p></li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/brain_segment.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="attribution">
-<p><span class="citation" data-cites="brodbeck.etal_18">Brodbeck et al. (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span></p>
-</div>
+<section id="motor-theory" class="slide level2">
+<h2>Motor Theory</h2>
+<p><span class="citation" data-cites="liberman.etal_67">Liberman et al. (<a href="#/references" role="doc-biblioref" onclick="">1967</a>)</span>; <span class="citation" data-cites="liberman.mattingly_85">Liberman &amp; Mattingly (<a href="#/references" role="doc-biblioref" onclick="">1985</a>)</span></p>
 </section>
 <section id="references" class="slide level2 smaller appendix scrollable">
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-beckman.edwards_90" class="csl-entry" role="listitem">
-Beckman, M. E., &amp; Edwards, J. (1990). Lengthenings and shortenings and the nature of prosodic constituency. In J. Kingston &amp; M. E. Beckman (Eds.), <em>Papers in <span>Laboratory Phonology</span>: <span>Volume</span> 1: <span>Between</span> the <span>Grammar</span> and <span>Physics</span> of <span>Speech</span></em> (Vol. 1, pp. 152–178). <span>Cambridge University Press</span>. <a href="https://doi.org/10.1017/CBO9780511627736.009">https://doi.org/10.1017/CBO9780511627736.009</a>
-</div>
-<div id="ref-brodbeck.etal_18" class="csl-entry" role="listitem">
-Brodbeck, C., Hong, L. E., &amp; Simon, J. Z. (2018). Rapid <span>Transformation</span> from <span>Auditory</span> to <span>Linguistic Representations</span> of <span>Continuous Speech</span>. <em>Current Biology</em>, <em>28</em>(24), 3976–3983.e5. <a href="https://doi.org/gf3q2j">https://doi.org/gf3q2j</a>
-</div>
-<div id="ref-cutler.butterfield_92" class="csl-entry" role="listitem">
-Cutler, A., &amp; Butterfield, S. (1992). Rhythmic cues to speech segmentation: <span>Evidence</span> from juncture misperception. <em>Journal of Memory and Language</em>, <em>31</em>(2), 218–236. <a href="https://doi.org/cg8f4f">https://doi.org/cg8f4f</a>
-</div>
-<div id="ref-cutler.etal_92" class="csl-entry" role="listitem">
-Cutler, A., Mehler, J., Norris, D., &amp; Segui, J. (1992). The monolingual nature of speech segmentation by bilinguals. <em>Cognitive Psychology</em>, <em>24</em>(3), 381–410. <a href="https://doi.org/bbtdcj">https://doi.org/bbtdcj</a>
-</div>
-<div id="ref-gow.gordon_95" class="csl-entry" role="listitem">
-Gow Jr., D. W., &amp; Gordon, P. C. (1995). Lexical and prelexical influences on word segmentation: <span>Evidence</span> from priming. <em>Journal of Experimental Psychology: Human Perception and Performance</em>, <em>21</em>(2), 344–359. <a href="https://doi.org/bd5xsk">https://doi.org/bd5xsk</a>
-</div>
 <div id="ref-liberman.etal_67" class="csl-entry" role="listitem">
 Liberman, A. M., Cooper, F. S., Shankweiler, D. P., &amp; Studdert-Kennedy, M. (1967). Perception of the speech code. <em>Psychological Review</em>, <em>74</em>(6), 431–461. <a href="https://doi.org/dvfs2x">https://doi.org/dvfs2x</a>
+</div>
+<div id="ref-liberman.mattingly_85" class="csl-entry" role="listitem">
+Liberman, A. M., &amp; Mattingly, I. G. (1985). The motor theory of speech perception revised. <em>Cognition</em>, <em>21</em>(1), 1–36. <a href="https://doi.org/d79rrw">https://doi.org/d79rrw</a>
 </div>
 <div id="ref-marslen-wilson_84" class="csl-entry" role="listitem">
 Marslen-Wilson, W. D. (1984). Function and <span>Process</span> in <span>Spoken Word-Recognition</span>: <span>A Tutorial Review</span>. In H. Bouma &amp; D. Bouwhis (Eds.), <em>Attention and <span>Performance X</span></em>. <span>Lawrence Erlbaum Associates</span>.
 </div>
-<div id="ref-miller_81" class="csl-entry" role="listitem">
-Miller, J. L. (1981). Some <span>Effects</span> of <span>Speaking Rate</span> on <span>Phonetic Perception</span>. <em>Phonetica</em>, <em>38</em>(1-3), 159–180. <a href="https://doi.org/ct9qw7">https://doi.org/ct9qw7</a>
+<div id="ref-marslen-wilson_87" class="csl-entry" role="listitem">
+Marslen-Wilson, W. D. (1987). Functional parallelism in spoken word-recognition. <em>Cognition</em>, <em>25</em>(1), 71–102. <a href="https://doi.org/dfj9tb">https://doi.org/dfj9tb</a>
 </div>
-<div id="ref-norris.etal_97" class="csl-entry" role="listitem">
-Norris, D., McQueen, J. M., Cutler, A., &amp; Butterfield, S. (1997). The <span>Possible-Word Constraint</span> in the <span>Segmentation</span> of <span>Continuous Speech</span>. <em>Cognitive Psychology</em>, <em>34</em>(3), 191–243. <a href="https://doi.org/fm4hj5">https://doi.org/fm4hj5</a>
+<div id="ref-mcclelland.elman_86" class="csl-entry" role="listitem">
+McClelland, J. L., &amp; Elman, J. L. (1986). The <span>TRACE</span> model of speech perception. <em>Cognitive Psychology</em>, <em>18</em>(1), 1–86. <a href="https://doi.org/cpmfpm">https://doi.org/cpmfpm</a>
 </div>
-<div id="ref-osses.etal_23" class="csl-entry" role="listitem">
-Osses, A., Spinelli, E., Meunier, F., Gaudrain, E., &amp; Varnet, L. (2023). Prosodic cues to word boundaries in a segmentation task assessed using reverse correlation. <em>JASA Express Letters</em>, <em>3</em>(9), 095205–095201. <a href="https://doi.org/gthzzr">https://doi.org/gthzzr</a>
-</div>
-<div id="ref-trager.bloch_41" class="csl-entry" role="listitem">
-Trager, G. L., &amp; Bloch, B. (1941). The <span>Syllabic Phonemes</span> of <span>English</span>. <em>Language</em>, <em>17</em>(3), 223–246. <a href="https://doi.org/bs9h3s">https://doi.org/bs9h3s</a>
+<div id="ref-stasenko.etal_13" class="csl-entry" role="listitem">
+Stasenko, A., Garcea, F. E., &amp; Mahon, B. Z. (2013). What happens to the motor theory of perception when the motor system is damaged? <em>Language and Cognition</em>, <em>5</em>(2-3), 225–238. <a href="https://doi.org/gn7gf7">https://doi.org/gn7gf7</a>
 </div>
 </div>
+<!--
+## Recognising Phonemes
+
+- neural nets
+
+- wavelets 
+
+::: atrightcite
+[e.g., @farooq.datta_03]
+
+:::
+
+- frequency-phase pattern
+
+::: atrightcite
+[e.g., @wang.etal_12]
+
+:::
+
+- etc.
+:::
+
+::::
+-->
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
@@ -925,20 +458,20 @@ Trager, G. L., &amp; Bloch, B. (1941). The <span>Syllabic Phonemes</span> of <sp
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="lecture06_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="lecture07_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="lecture06_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="lecture06_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="lecture06_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="lecture07_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
