@@ -333,6 +333,10 @@
 <h1>Demo</h1>
 <p>press right-arrow to start</p>
 <script>
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const globalAudio = new Audio();
 
@@ -354,8 +358,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (audioSrc && !isNaN(audioDelay)) {
                 // If there's audio configured for this slide, play it and setup transition
-                playAudio(audioSrc);
-                setTimeout(() => Reveal.next(), audioDelay);
+                sleep(2000).then(() => { playAudio(audioSrc); });
+                // playAudio(audioSrc);
+                setTimeout(() => Reveal.next(), audioDelay+2000);
             } else if (!isNaN(slideDelay)) {
                 // If there's a slide delay configured (without audio), setup transition
                 setTimeout(() => Reveal.next(), slideDelay);
