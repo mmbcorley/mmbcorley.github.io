@@ -10,10 +10,10 @@
 <link href="lecture09_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="lecture09_files/libs/quarto-contrib/videojs/video.min.js"></script>
 <link href="lecture09_files/libs/quarto-contrib/videojs/video-js.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Martin Corley">
-  <meta name="dcterms.date" content="2024-03-01">
+  <meta name="dcterms.date" content="2024-03-18">
   <title>Beyond Words</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -367,7 +367,7 @@ Martin Corley
     </div>
 </div>
 
-  <p class="date">2024-03-01</p>
+  <p class="date">2024-03-18</p>
 </section>
 <section id="say-uh" class="slide level2">
 <h2>Say Uh…</h2>
@@ -755,6 +755,9 @@ Martin Corley
 <p><span class="citation" data-cites="li.etal_ip">Li et al. (<a href="#/references" role="doc-biblioref" onclick="">under review</a>)</span></p>
 </div>
 </section>
+<section id="section" class="slide level2" data-background-image="img/external/NSS-1_1.jpg">
+<h2></h2>
+</section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
@@ -771,10 +774,10 @@ Li, W., Rohde, H., &amp; Corley, M. (under review). <em>Non-plural interpretatio
 Loy, J. E., Rohde, H., &amp; Corley, M. (2017). Effects of disfluency in online interpretation of deception. <em>Cognitive Science</em>, <em>41</em>, 1434–1456. <a href="https://doi.org/gbgmxf">https://doi.org/gbgmxf</a>
 </div>
 <div id="ref-loy.etal_18" class="csl-entry" role="listitem">
-Loy, J. E., Rohde, H., &amp; Corley, M. (2018). Cues to lying may be deceptive: <span>Speaker</span> and listener behaviour in an interactive game of deception. <em>Journal of Cognition</em>, <em>1</em>(1), 42. <a href="https://doi.org/gq7nc2">https://doi.org/gq7nc2</a>
+Loy, J. E., Rohde, H., &amp; Corley, M. (2018). Cues to lying may be deceptive: Speaker and listener behaviour in an interactive game of deception. <em>Journal of Cognition</em>, <em>1</em>(1), 42. <a href="https://doi.org/gq7nc2">https://doi.org/gq7nc2</a>
 </div>
 <div id="ref-loy.etal_19" class="csl-entry" role="listitem">
-Loy, J. E., Rohde, H., &amp; Corley, M. (2019). Real-time social reasoning: <span>The</span> effect of disfluency on the meaning of some. <em>Journal of Cultural Cognitive Science</em>, <em>3</em>(2), 159–173. <a href="https://doi.org/gq7nc3">https://doi.org/gq7nc3</a>
+Loy, J. E., Rohde, H., &amp; Corley, M. (2019). Real-time social reasoning: The effect of disfluency on the meaning of some. <em>Journal of Cultural Cognitive Science</em>, <em>3</em>(2), 159–173. <a href="https://doi.org/gq7nc3">https://doi.org/gq7nc3</a>
 </div>
 <div id="ref-swerts.krahmer_05" class="csl-entry" role="listitem">
 Swerts, M., &amp; Krahmer, E. (2005). Audiovisual prosody and feeling of knowing. <em>Journal of Memory and Language</em>, <em>53</em>(1), 81–94. <a href="https://doi.org/djb5q5">https://doi.org/djb5q5</a>
@@ -1100,6 +1103,24 @@ Swerts, M., &amp; Krahmer, E. (2005). Audiovisual prosody and feeling of knowing
         // clear code selection
         e.clearSelection();
       });
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -1136,7 +1157,11 @@ Swerts, M., &amp; Krahmer, E. (2005). Audiovisual prosody and feeling of knowing
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
