@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="195.79167mm"
+   height="111.39594mm"
+   viewBox="0 0 195.79167 111.39594"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="course_PR.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.71446409"
+     inkscape:cx="317.02083"
+     inkscape:cy="322.61943"
+     inkscape:window-width="1918"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="-79.999996"
+       originy="-238.97601"
+       spacingx="0.26458333"
+       spacingy="0.26458334"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="-22.36219"
+       y="776.78371"
+       width="3.6379788e-12"
+       height="20.000002"
+       id="rect8" />
+    <linearGradient
+       id="linearGradient13"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ecb59b;stop-opacity:1;"
+         offset="0"
+         id="stop13" />
+      <stop
+         style="stop-color:#ecb59b;stop-opacity:0;"
+         offset="1"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ece69b;stop-opacity:1;"
+         offset="0"
+         id="stop8" />
+      <stop
+         style="stop-color:#ece69b;stop-opacity:0;"
+         offset="1"
+         id="stop9" />
+    </linearGradient>
+    <rect
+       x="80"
+       y="520"
+       width="260"
+       height="63.654236"
+       id="rect7" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8"
+       id="linearGradient10"
+       gradientUnits="userSpaceOnUse"
+       x1="137.58333"
+       y1="164.04167"
+       x2="137.58333"
+       y2="185.20834"
+       gradientTransform="translate(-79.619703,-31.760662)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13"
+       id="linearGradient14"
+       x1="169.33333"
+       y1="169.33334"
+       x2="47.625"
+       y2="169.33334"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.166666,-63.22907)">
+    <rect
+       style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="68.791664"
+       height="15.875001"
+       x="21.166666"
+       y="74.083336" />
+    <rect
+       style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-2"
+       width="68.791664"
+       height="15.875001"
+       x="21.166666"
+       y="95.25" />
+    <rect
+       style="fill:#ffeeaa;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-5"
+       width="68.791664"
+       height="15.875001"
+       x="100.78637"
+       y="74.083336" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="21.166666"
+       y="68.791672"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.264583"
+         x="21.166666"
+         y="68.791672">semester one</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="100.78637"
+       y="68.791672"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.264583"
+         x="100.78637"
+         y="68.791672">semester two</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="26.458332"
+       y="84.666664"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0.264583"
+         x="26.458332"
+         y="84.666664">Quali Methods</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="105.83333"
+       y="84.666664"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0.264583"
+         x="105.83333"
+         y="84.666664">Option</tspan></text>
+    <rect
+       style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5"
+       width="68.791664"
+       height="15.875001"
+       x="21.166666"
+       y="116.41666" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="26.458332"
+       y="105.83333"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="stroke-width:0.264583"
+         x="26.458332"
+         y="105.83333">USMR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="26.458332"
+       y="127.00001"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="stroke-width:0.264583"
+         x="26.458332"
+         y="127.00001">Research Skills</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text7"
+       style="font-size:32px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;white-space:pre;shape-inside:url(#rect7);display:inline" />
+    <rect
+       style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8-7"
+       width="68.791664"
+       height="16.1012"
+       x="100.78637"
+       y="95.139938" />
+    <rect
+       style="fill:#ffeeaa;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8-7-0"
+       width="68.791664"
+       height="16.1012"
+       x="100.78637"
+       y="116.42274" />
+    <rect
+       style="fill:url(#linearGradient10);fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8-6-8"
+       width="68.791664"
+       height="16.1012"
+       x="21.166666"
+       y="137.58331" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="26.458332"
+       y="148.01059"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:0.264583"
+         x="26.458332"
+         y="148.01059">Option</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="105.64283"
+       y="105.15057"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="stroke-width:0.264583"
+         x="105.64283"
+         y="105.15057">MSMR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="105.64283"
+       y="126.43337"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="stroke-width:0.264583"
+         x="105.64283"
+         y="126.43337">Option</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="178.86658"
+       y="68.901733"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="stroke-width:0.264583"
+         x="178.86658"
+         y="68.901733">summer</tspan></text>
+    <rect
+       style="fill:url(#linearGradient14);fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect13"
+       width="195.79167"
+       height="15.875001"
+       x="21.166666"
+       y="158.75" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
+       x="26.458332"
+       y="169.33333"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="stroke-width:0.264583"
+         x="26.458332"
+         y="169.33333">Dissertation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:'Urbanist Bold';stroke-width:0.264583"
+       x="-150.21123"
+       y="212.09991"
+       id="text14-3"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan14-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Urbanist;-inkscape-font-specification:'Urbanist Bold';stroke-width:0.264583"
+         x="-150.21123"
+         y="212.09991">MSc Psych Research</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,21.166666,63.22907)"
+       id="text8"
+       style="line-height:1.25;font-family:'Noto Sans';font-size:16px;-inkscape-font-specification:'Noto Sans';font-variant-ligatures:none;text-orientation:auto;white-space:pre;shape-inside:url(#rect8)" />
+  </g>
+</svg>

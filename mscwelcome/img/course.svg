@@ -7,7 +7,7 @@
    viewBox="0 0 195.79167 111.39594"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    sodipodi:docname="course.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,12 +26,12 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="0.71446409"
-     inkscape:cx="317.72066"
-     inkscape:cy="321.91961"
-     inkscape:window-width="1920"
-     inkscape:window-height="1111"
+     inkscape:cx="317.02083"
+     inkscape:cy="322.61943"
+     inkscape:window-width="1918"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
-     inkscape:window-y="1080"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -109,7 +109,7 @@
      id="layer1"
      transform="translate(-21.166666,-63.22907)">
     <rect
-       style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#c8beb7;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect1"
        width="68.791664"
        height="15.875001"
@@ -123,7 +123,7 @@
        x="21.166666"
        y="95.25" />
     <rect
-       style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#c8beb7;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect1-5"
        width="68.791664"
        height="15.875001"
@@ -161,7 +161,7 @@
          id="tspan3"
          style="stroke-width:0.264583"
          x="26.458332"
-         y="84.666664">USMR</tspan></text>
+         y="84.666664">Specialised 1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
@@ -172,7 +172,7 @@
          id="tspan4"
          style="stroke-width:0.264583"
          x="105.83333"
-         y="84.666664">MSMR</tspan></text>
+         y="84.666664">Specialised 2</tspan></text>
     <rect
        style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect5"
@@ -190,7 +190,7 @@
          id="tspan5"
          style="stroke-width:0.264583"
          x="26.458332"
-         y="105.83333">Quali Methods</tspan></text>
+         y="105.83333">USMR</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
@@ -208,14 +208,14 @@
        id="text7"
        style="font-size:32px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;white-space:pre;shape-inside:url(#rect7)" />
     <rect
-       style="fill:#ece69b;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#aed9b8;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect8-7"
        width="68.791664"
        height="16.1012"
        x="100.78637"
        y="95.139938" />
     <rect
-       style="fill:#ece69b;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffeeaa;fill-opacity:1;stroke:#bee1ca;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect8-7-0"
        width="68.791664"
        height="16.1012"
@@ -249,7 +249,7 @@
          id="tspan11"
          style="stroke-width:0.264583"
          x="105.64283"
-         y="105.15057">Option</tspan></text>
+         y="105.15057">MSMR</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8.46667px;line-height:1.25;font-family:Urbanist;-inkscape-font-specification:Urbanist;stroke-width:0.264583"
